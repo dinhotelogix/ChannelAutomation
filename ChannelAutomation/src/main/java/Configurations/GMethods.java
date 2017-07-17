@@ -66,6 +66,7 @@ public class GMethods
 	}
 	
 	//Object Repository
+	/*
 	public static Properties OR() throws IOException
 	{
 		//BufferedReader br = new BufferedReader(new InputStreamReader(new FileInputStream(Constants.Path_OR)));
@@ -74,7 +75,7 @@ public class GMethods
 		pro.load(fis);
 		return pro;
 	}
-
+*/
 	//<<<-------------Alert------------------>>>
 	public static void alertHandel()
 	{

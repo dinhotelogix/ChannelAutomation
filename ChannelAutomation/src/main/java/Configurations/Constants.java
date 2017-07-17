@@ -2,8 +2,8 @@ package Configurations;
 
 public class Constants 
 {	
-	public static final String Path_OR = "E:\\ChannelAutomation\\ChannelAutomation\\src\\main\\java\\Configurations\\OR.txt";
-	public static final String Path_ExcelData ="E:\\ChannelAutomation\\CMData.xlsx";
+	//public static final String Path_OR = "E:\\ChannelAutomation\\ChannelAutomation\\src\\main\\java\\Configurations\\OR.txt";
+	public static final String Path_ExcelData ="D:\\DD\\ChannelAutomationRepo\\ChannelAutomation\\OtherFiles\\CMData.xlsx";
 	public static final String Sheet_Credentials = "Credentials";
 	public static final String Sheet_TestData = "TestData";
 		
