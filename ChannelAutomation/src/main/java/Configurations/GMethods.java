@@ -81,7 +81,6 @@ public class GMethods
 	{
 		Alert alert = driver.switchTo().alert();
 		alert.accept();	
-			
 	}
 		
 	//-------------JS Click--------------------
