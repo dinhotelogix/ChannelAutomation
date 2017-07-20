@@ -10,12 +10,12 @@ public class Constants
 	//================Room Type Codes=====================
 	
 	//------------    VB      ---------------
-	//public static final String RoomCode1 = "FFS";
-	//public static final String RoomCode2 = "GFS";
+	public static final String RoomCode1 = "FFS";
+	public static final String RoomCode2 = "GFS";
 	
 	//------------    BusyRooms    ------------
-	public static final String RoomCode1 = "SRM";
-	public static final String RoomCode2 = "STD";
+	//public static final String RoomCode1 = "SRM";
+	//public static final String RoomCode2 = "STD";
 	
 	//public static final String ServerURL ="http://livestable.hx.local/admine/login";
 	public static final String Browser = "FF";

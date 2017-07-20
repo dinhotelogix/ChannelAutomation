@@ -268,7 +268,7 @@ public class AdminLoginTest
 		}
 	}
 	
-	@Test(priority=17, groups = {"BR", "SendRate","ChannelManager"})
+	//@Test(priority=17, groups = {"BR", "SendRate","ChannelManager"})
 	//@Test(priority=17, groups = {"testDebug"})
 	public void CaptureAllotment_TC_17()
 	{
@@ -317,7 +317,7 @@ public class AdminLoginTest
 	}
 	
 	//Push Reservation On Frontdesk
-	@Test(priority=19, groups = {"BR","ChannelManager"})
+	//@Test(priority=19, groups = {"BR","ChannelManager"})
 	//@Test(priority=19, groups = {"testDebug"})
 	public void pushbooking_TC_19()
 	{
@@ -334,7 +334,7 @@ public class AdminLoginTest
 	
 	//Login on Frontdesk to Verify Reservation
 	//@Test(priority=20, groups = {"testDebug"})
-	@Test(priority=20, groups = {"BR","ChannelManager"})
+	//@Test(priority=20, groups = {"BR","ChannelManager"})
 	public void LoginOnFrontdeskFromAdminConsole_TC_20()
 	{
 		//Click On Frontdesk Link in Admin
@@ -361,7 +361,7 @@ public class AdminLoginTest
 	}
 	//Verify Reservation On Frontdesk
 	//@Test(priority=21, groups = {"testDebug"})
-	@Test(priority=21, groups = {"BR","ChannelManager"})
+	//@Test(priority=21, groups = {"BR","ChannelManager"})
 	public void VerifyResOnFrontdesk_TC_21()
 	{
 		try {
@@ -381,7 +381,7 @@ public class AdminLoginTest
 	
 	//Logout Frontdesk and Back to Admin window
 	//@Test(priority=22, groups = {"testDebug"})
-	@Test(priority=22, groups = {"BR","ChannelManager"})
+	//@Test(priority=22, groups = {"BR","ChannelManager"})
 	public void LogoutFrotdeskBackToAdminWindow_TC_22()
 	{
 		try {
@@ -398,7 +398,7 @@ public class AdminLoginTest
 	//Check Allotment Update in Admin
 
 	//@Test(priority=23, groups = {"testDebug"})
-	@Test(priority=23, groups = {"BR","ChannelManager"})
+	//@Test(priority=23, groups = {"BR","ChannelManager"})
 	public void VerifyAllotmentUpdateInAdminConsole_TC_23()
 	{
 		try {
@@ -444,7 +444,7 @@ public class AdminLoginTest
 	
 	//Land On Admin Home
 	//@Test(priority=24, groups = {"testDebug"})
-	@Test(priority=24, groups = {"BR", "SendRate","ChannelManager"})
+	//@Test(priority=24, groups = {"BR", "SendRate","ChannelManager"})
 	public void landOnAdminHome_TC_24()
 	{
 		try {
