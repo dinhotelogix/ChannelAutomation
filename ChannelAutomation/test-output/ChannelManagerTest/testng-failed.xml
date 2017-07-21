@@ -4,30 +4,11 @@
   <test name="ChannelManagerTest">
     <groups>
       <run>
-        <include name="BR"/>
+        <include name="testDebug"/>
       </run>
     </groups>
     <classes>
       <class name="ChannelAutomation.Admin.Test.AdminLoginTest"/>
     </classes>
   </test> <!-- ChannelManagerTest -->
-  <test name="ChannelManagerTest(failed)">
-    <groups>
-      <run>
-        <include name="BR"/>
-      </run>
-    </groups>
-    <classes>
-      <class name="ChannelAutomation.Admin.Test.AdminLoginTest">
-        <methods>
-          <include name="saveAlotments_TC_4"/>
-          <include name="SendRulesonChannel_TC_8"/>
-          <include name="setExcelPath"/>
-          <include name="sendRatesOnChannel_TC_14"/>
-          <include name="VerifyAllotmentUpdateInAdminConsole_TC_23"/>
-          <include name="VerifyResOnFrontdesk_TC_21"/>
-        </methods>
-      </class> <!-- ChannelAutomation.Admin.Test.AdminLoginTest -->
-    </classes>
-  </test> <!-- ChannelManagerTest(failed) -->
 </suite> <!-- Failed suite [ChannelManagerTest] -->

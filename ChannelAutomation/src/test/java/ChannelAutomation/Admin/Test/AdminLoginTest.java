@@ -29,15 +29,15 @@ import Configurations.GMethods;
 
 public class AdminLoginTest 
 {
-	@BeforeTest(groups = { "Login","BR", "SendRate","SendRule","SendAllotment","ChannelManager" })
+	@BeforeTest()
 	public void setExcelPath() throws Exception
 	{
 		ExcelUtils.setExcelFile(Constants.Path_ExcelData);	
 	}
 	
 	////Login to Admin Console
-	//@Test(priority=1, groups = {"testDebug" })
-	@Test(priority=1, groups = {"Login","BR", "SendRate","SendRule","SendAllotment","ChannelManager" })
+	@Test(priority=1, groups = {"testDebug" })
+	//@Test(priority=1, groups = {"Login","BR", "SendRate","SendRule","SendAllotment","ChannelManager" })
 	public void AdminLogin_TC_1()
 	{
 		try {			
@@ -61,6 +61,7 @@ public class AdminLoginTest
 		}
 	}
 	//Land on List of Other(GDS) Page
+	//@Test(priority=2, groups = {"testDebug" })
 	@Test(priority=2, groups = {"BR","SendAllotment","ChannelManager" })
 	public void landOnListOfGDSPage_TC_2()
 	{
@@ -76,6 +77,7 @@ public class AdminLoginTest
 	}
 	
 	//Land On Allotment Matrix - Vertical Booking
+	//@Test(priority=3, groups = {"testDebug" })
 	@Test(priority=3, groups = {"BR","SendAllotment","ChannelManager"})
 	public void landOnAllotmentMatrix_TC_3()
 	{
@@ -89,6 +91,7 @@ public class AdminLoginTest
 		}
 	}
 	//Save Allotments
+	//@Test(priority=4, groups = {"testDebug" })
 	@Test(priority=4 , groups = {"BR","SendAllotment","ChannelManager"})
 	public void saveAlotments_TC_4()
 	{
@@ -104,6 +107,7 @@ public class AdminLoginTest
 		}
 	}
 	//Click Home Link to Land On Admin Home
+	//@Test(priority=5, groups = {"testDebug" })
 	@Test(priority=5, groups = {"BR","SendAllotment","ChannelManager"})
 	public void landOnAdminHome_TC_5()
 	{
@@ -116,6 +120,7 @@ public class AdminLoginTest
 	}
 	
 	//Land on List of Other(GDS) Page
+	//@Test(priority=6, groups = {"testDebug" })
 	@Test(priority=6, groups = {"BR","SendAllotment","ChannelManager"})
 	public void landOnListOfGDSPage_TC_6()
 	{
@@ -132,6 +137,7 @@ public class AdminLoginTest
 	
 	
 	//Land On Allotment Matrix
+	//@Test(priority=7, groups = {"testDebug" })
 	@Test(priority=7, groups = {"BR","SendAllotment","ChannelManager"})
 	public void landOnAllotmentMatrix_TC_7()
 	{
@@ -146,6 +152,7 @@ public class AdminLoginTest
 	}
 	
 	//Send Rules on Channel
+	//@Test(priority=8, groups = {"testDebug" })
 	@Test(priority=8, groups = {"BR","SendAllotment","ChannelManager"})
 	public void SendRulesonChannel_TC_8()
 	{
@@ -158,6 +165,7 @@ public class AdminLoginTest
 	}
 	
 	//Land On Admin Home
+	//@Test(priority=9, groups = {"testDebug" })
 	@Test(priority=9, groups = {"BR","SendAllotment","ChannelManager"})
 	public void landOnAdminHome_TC_9()
 	{
@@ -171,7 +179,8 @@ public class AdminLoginTest
 	
 	
 	//Land on List of Other(GDS) Page
-	@Test(priority=10, groups = {"BR", "SendRate","ChannelManager"})
+	@Test(priority=10, groups = {"testDebug" })
+	//@Test(priority=10, groups = {"BR", "SendRate","ChannelManager"})
 	public void landOnListOfGDSPage_TC_10()
 	{
 		try {
@@ -186,7 +195,8 @@ public class AdminLoginTest
 	}
 	
 	//Land Of List Of Channel Package
-	@Test(priority=11, groups = {"BR", "SendRate","ChannelManager"})
+	@Test(priority=11, groups = {"testDebug" })
+	//@Test(priority=11, groups = {"BR", "SendRate","ChannelManager"})
 	public void landOnListofChannels_TC_11()
 	{
 		try {
@@ -197,7 +207,8 @@ public class AdminLoginTest
 		}
 	}
 	//Land on "List of Packages" Page
-	@Test(priority=12, groups = {"BR", "SendRate","ChannelManager"})
+	@Test(priority=12, groups = {"testDebug" })
+	//@Test(priority=12, groups = {"BR", "SendRate","ChannelManager"})
 	public void clickOnChannel_TC_12()
 	{
 		try {
@@ -208,7 +219,8 @@ public class AdminLoginTest
 		}
 	}
 	//Edit Package
-	@Test(priority=13, groups = {"BR", "SendRate","ChannelManager"})
+	@Test(priority=13, groups = {"testDebug" })
+	//@Test(priority=13, groups = {"BR", "SendRate","ChannelManager"})
 	public void clickOnEditPackage_TC_13()
 	{
 		try {
@@ -218,9 +230,9 @@ public class AdminLoginTest
 			e.getMessage();
 		}
 	}
-	
 	//Sync and Send rate On Channel
-	@Test(priority=14, groups = {"BR", "SendRate","ChannelManager"})
+	@Test(priority=14, groups = {"testDebug" })
+	//@Test(priority=14, groups = {"BR", "SendRate","ChannelManager"})
 	public void sendRatesOnChannel_TC_14()
 	{
 		try {
@@ -243,8 +255,9 @@ public class AdminLoginTest
 		}
 	}
 	
-	//Close Window and Back to Admin Parent Window 
-	@Test(priority=15, groups = {"BR", "SendRate","ChannelManager"})
+	//Close Window and Back to Admin Parent Window
+	@Test(priority=15, groups = {"testDebug" })
+	//@Test(priority=15, groups = {"BR", "SendRate","ChannelManager"})
 	public void backToAdminHomePagel_TC_15() {
 		try {
 			VerifyRatesOnChannel VROC = new VerifyRatesOnChannel();
@@ -253,8 +266,8 @@ public class AdminLoginTest
 			
 		}
 	}
-	
 	//Land On Admin Home
+	//@Test(priority=16, groups = {"testDebug" })
 	@Test(priority=16, groups = {"BR", "SendRate","ChannelManager"})
 	public void landOnAdminHome_TC_16()
 	{

@@ -84,7 +84,9 @@ public class PackageRate
 			String rt1Rate = Integer.toString(GMethods.getRandomNumber(1, 1000)+rt1);
 			//System.out.println(rt1Rate);
 			LnkPkgPriceRT1.click();
+			Thread.sleep(1000);
 			TxtbxPkgPriceRT1.clear();
+			Thread.sleep(1000);
 			TxtbxPkgPriceRT1.sendKeys(rt1Rate);
 		} catch (Exception e) {
 			System.out.println("Issue in Change Rate for Room Type 1"+e.getMessage());
@@ -95,11 +97,12 @@ public class PackageRate
 			String rt2Rate = Integer.toString(GMethods.getRandomNumber(1, 1000)+rt2);
 			LnkPkgPriceRT2.click();
 			TxtbxPkgPriceRT2.clear();
-		TxtbxPkgPriceRT2.sendKeys(rt2Rate);
+			Thread.sleep(1000);
+			TxtbxPkgPriceRT2.sendKeys(rt2Rate);
 		} catch (Exception e) {
 			System.out.println("Issue in Change Rate for Room Type 2"+e.getMessage());
 		}
-		System.out.println("Test");
+		//System.out.println("Test");
 	}
 	//Save
 	public ListofPackagesPage save()
