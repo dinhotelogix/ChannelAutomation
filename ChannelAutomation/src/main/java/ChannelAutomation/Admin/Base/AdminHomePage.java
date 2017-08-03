@@ -28,6 +28,7 @@ public class AdminHomePage
 	public void verifyAdminPage()
 	{
 		try {
+			System.out.println("Test");
 			String actAdminHeader = HeaderHomePage.getText();
 			//System.out.println("Admin Header = "+actAdminHeader);
 			Assert.assertEquals(actAdminHeader, expAdminHeader);
