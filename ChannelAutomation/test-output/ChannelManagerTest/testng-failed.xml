@@ -4,11 +4,35 @@
   <test name="ChannelManagerTest">
     <groups>
       <run>
-        <include name="testDebug"/>
+        <include name="BR"/>
       </run>
     </groups>
     <classes>
       <class name="ChannelAutomation.Admin.Test.AdminLoginTest"/>
     </classes>
   </test> <!-- ChannelManagerTest -->
+  <test name="ChannelManagerTest(failed)">
+    <groups>
+      <run>
+        <include name="BR"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="ChannelAutomation.Admin.Test.AdminLoginTest">
+        <methods>
+          <include name="clickOnChannel_TC_12"/>
+          <include name="clickOnEditPackage_TC_13"/>
+          <include name="LogoutFrotdeskBackToAdminWindow_TC_22"/>
+          <include name="landOnAdminHome_TC_18"/>
+          <include name="LoginOnFrontdeskFromAdminConsole_TC_20"/>
+          <include name="sendRatesOnChannel_TC_14"/>
+          <include name="CaptureAllotment_TC_17"/>
+          <include name="VerifyAllotmentUpdateInAdminConsole_TC_23"/>
+          <include name="landOnAdminHome_TC_16"/>
+          <include name="VerifyResOnFrontdesk_TC_21"/>
+          <include name="landOnAdminHome_TC_24"/>
+        </methods>
+      </class> <!-- ChannelAutomation.Admin.Test.AdminLoginTest -->
+    </classes>
+  </test> <!-- ChannelManagerTest(failed) -->
 </suite> <!-- Failed suite [ChannelManagerTest] -->

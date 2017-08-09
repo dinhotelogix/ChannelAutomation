@@ -10,19 +10,19 @@ public class Constants
 	//================Room Type Codes=====================
 	
 	//------------    VB      ---------------
-	public static final String RoomCode1 = "FFS";
-	public static final String RoomCode2 = "GFS";
+	//public static final String RoomCode1 = "FFS";
+	//public static final String RoomCode2 = "GFS";
 	
 	//------------    BusyRooms    ------------
-	//public static final String RoomCode1 = "SRM";
-	//public static final String RoomCode2 = "STD";
+	public static final String RoomCode1 = "11913";
+	public static final String RoomCode2 = "11917";
 	
 	//public static final String ServerURL ="http://livestable.hx.local/admine/login";
 	public static final String Browser = "FF";
 	
-	//public static final String ServerURL = "https://staygrid.com/admine/login/login/redirect/1/rurl/JTJGYWRtaW5l";
-	public static final String ServerURL ="http://hotelogix.stayezee.com/admine/login/login/";
-	public static final int WaitForCaptcha = 0; 
+	public static final String ServerURL = "https://staygrid.com/admine/login/login/redirect/1/rurl/JTJGYWRtaW5l";
+	//public static final String ServerURL ="http://hotelogix.stayezee.com/admine/login/login/";
+	public static final int WaitForCaptcha = 10; 
 	public static final int AddDays = 15;
 	public static final int fromDate_ResAddDays = 2;
 	public static final int toDate_ResAddDays = 3;
@@ -35,16 +35,16 @@ public class Constants
 	//-----------Livestable Middle Man server--------------------------
 		//public static final String MiddleManServer = "http://middleman.hx.local/";
 		//-----------DotNet middle Man Server-----------------------------
-		public static final String MiddleManServer = "http://mmdemo.stayezee.com/";
+		//public static final String MiddleManServer = "http://mmdemo.stayezee.com/";
 		//-----------Staygrid Middle Man Server---------------------------
-		//public static final String MiddleManServer = "https://mmlive.stayezee.com/";
+		public static final String MiddleManServer = "https://mmlive.stayezee.com/";
 		
 		//-----------------Busy Rooms Channel manager Code---------------------------
 		public static final String ChannelManagerCode = "BZR";
 		
 		//----------------Push Booking in Room Type----------------------
-		public static final String PushResInRoomType = "SRM";
-		//public static final String PushResInRoomType = "STD";
+		public static final String PushResInRoomType = "11913";
+		//public static final String PushResInRoomType = "11917";
 		
 	
 	public static final String BackgroundColor_Success = "rgba(240, 249, 255, 1)";
