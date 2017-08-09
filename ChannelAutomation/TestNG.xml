@@ -10,9 +10,9 @@
     <!--   <include name="VB" /> -->
     <!-- <include name="ChannelManager" /> --> 
    	<!--<include name="Login" />  -->
-   	<include name="testDebug" />  
-      
-     <!--<include name="BR" /> -->
+   	<!--  <include name="testDebug" /> --> 
+    <!--    <include name="BR" /> -->
+        <include name="Smoke" />
       </run>
    </groups>
    

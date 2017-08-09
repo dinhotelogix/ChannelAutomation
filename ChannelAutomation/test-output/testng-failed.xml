@@ -4,11 +4,26 @@
   <test name="ChannelManagerTest">
     <groups>
       <run>
-        <include name="testDebug"/>
+        <include name="Smoke"/>
       </run>
     </groups>
     <classes>
       <class name="ChannelAutomation.Admin.Test.AdminLoginTest"/>
     </classes>
   </test> <!-- ChannelManagerTest -->
+  <test name="ChannelManagerTest(failed)">
+    <groups>
+      <run>
+        <include name="Smoke"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="ChannelAutomation.Admin.Test.AdminLoginTest">
+        <methods>
+          <include name="SendRulesonChannel_TC_8"/>
+          <include name="sendRatesOnChannel_TC_14"/>
+        </methods>
+      </class> <!-- ChannelAutomation.Admin.Test.AdminLoginTest -->
+    </classes>
+  </test> <!-- ChannelManagerTest(failed) -->
 </suite> <!-- Failed suite [ChannelManagerTest] -->

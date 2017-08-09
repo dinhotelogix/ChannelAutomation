@@ -49,6 +49,21 @@ public class AdminHomePage
 		
 	}
 	
+	@FindBy(xpath="//a[text()='| Logout']")
+	public static WebElement logout;
+	
+	public AdminLoginPage Logout()
+	{
+		try {
+			logout.click();
+		} catch (Exception e) {
+			System.out.println("Issue in Click Logout"+e.getMessage());
+			Assert.assertTrue(false);
+		}
+		AdminLoginPage ALP = PageFactory.initElements(GMethods.driver, AdminLoginPage.class);
+		return ALP;
+	}
+	
 	//Land On Frontdesk
 	public FrontdeskForceLogoutMessageCounterPage clickFrontdeskLink()
 	{
