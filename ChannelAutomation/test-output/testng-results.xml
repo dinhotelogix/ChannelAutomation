@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="2" total="17" passed="15">
+<testng-results skipped="0" failed="0" total="17" passed="17">
   <reporter-output>
   </reporter-output>
-  <suite name="ChannelManagerTest" duration-ms="1150001" started-at="2017-08-10T09:09:06Z" finished-at="2017-08-10T09:28:16Z">
+  <suite name="ChannelManagerTest" duration-ms="436560" started-at="2017-08-23T05:55:33Z" finished-at="2017-08-23T06:02:49Z">
     <groups>
       <group name="BR">
         <method signature="AdminLoginTest.AdminLogin_TC_1()[pri:1, instance:ChannelAutomation.Admin.Test.AdminLoginTest@6a4f787b]" name="AdminLogin_TC_1" class="ChannelAutomation.Admin.Test.AdminLoginTest"/>
@@ -90,151 +90,73 @@
         <method signature="AdminLoginTest.sendRatesOnChannel_TC_14()[pri:14, instance:ChannelAutomation.Admin.Test.AdminLoginTest@6a4f787b]" name="sendRatesOnChannel_TC_14" class="ChannelAutomation.Admin.Test.AdminLoginTest"/>
       </group> <!-- SendRate -->
     </groups>
-    <test name="ChannelManagerTest" duration-ms="1150001" started-at="2017-08-10T09:09:06Z" finished-at="2017-08-10T09:28:16Z">
+    <test name="ChannelManagerTest" duration-ms="436560" started-at="2017-08-23T05:55:33Z" finished-at="2017-08-23T06:02:49Z">
       <class name="ChannelAutomation.Admin.Test.AdminLoginTest">
-        <test-method status="PASS" signature="AdminLogin_TC_1()[pri:1, instance:ChannelAutomation.Admin.Test.AdminLoginTest@6a4f787b]" name="AdminLogin_TC_1" duration-ms="152904" started-at="2017-08-10T14:39:06Z" finished-at="2017-08-10T14:41:39Z">
+        <test-method status="PASS" signature="AdminLogin_TC_1()[pri:1, instance:ChannelAutomation.Admin.Test.AdminLoginTest@6a4f787b]" name="AdminLogin_TC_1" duration-ms="34021" started-at="2017-08-23T11:25:33Z" finished-at="2017-08-23T11:26:07Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- AdminLogin_TC_1 -->
-        <test-method status="PASS" signature="landOnListOfGDSPage_TC_2()[pri:2, instance:ChannelAutomation.Admin.Test.AdminLoginTest@6a4f787b]" name="landOnListOfGDSPage_TC_2" duration-ms="2721" started-at="2017-08-10T14:41:39Z" finished-at="2017-08-10T14:41:41Z">
+        <test-method status="PASS" signature="landOnListOfGDSPage_TC_2()[pri:2, instance:ChannelAutomation.Admin.Test.AdminLoginTest@6a4f787b]" name="landOnListOfGDSPage_TC_2" duration-ms="2828" started-at="2017-08-23T11:26:07Z" finished-at="2017-08-23T11:26:10Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- landOnListOfGDSPage_TC_2 -->
-        <test-method status="PASS" signature="landOnAllotmentMatrix_TC_3()[pri:3, instance:ChannelAutomation.Admin.Test.AdminLoginTest@6a4f787b]" name="landOnAllotmentMatrix_TC_3" duration-ms="9709" started-at="2017-08-10T14:41:41Z" finished-at="2017-08-10T14:41:51Z">
+        <test-method status="PASS" signature="landOnAllotmentMatrix_TC_3()[pri:3, instance:ChannelAutomation.Admin.Test.AdminLoginTest@6a4f787b]" name="landOnAllotmentMatrix_TC_3" duration-ms="6544" started-at="2017-08-23T11:26:10Z" finished-at="2017-08-23T11:26:16Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- landOnAllotmentMatrix_TC_3 -->
-        <test-method status="PASS" signature="saveAlotments_TC_4()[pri:4, instance:ChannelAutomation.Admin.Test.AdminLoginTest@6a4f787b]" name="saveAlotments_TC_4" duration-ms="14905" started-at="2017-08-10T14:41:51Z" finished-at="2017-08-10T14:42:06Z">
+        <test-method status="PASS" signature="saveAlotments_TC_4()[pri:4, instance:ChannelAutomation.Admin.Test.AdminLoginTest@6a4f787b]" name="saveAlotments_TC_4" duration-ms="16780" started-at="2017-08-23T11:26:16Z" finished-at="2017-08-23T11:26:33Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- saveAlotments_TC_4 -->
-        <test-method status="PASS" signature="landOnAdminHome_TC_5()[pri:5, instance:ChannelAutomation.Admin.Test.AdminLoginTest@6a4f787b]" name="landOnAdminHome_TC_5" duration-ms="1837" started-at="2017-08-10T14:42:06Z" finished-at="2017-08-10T14:42:08Z">
+        <test-method status="PASS" signature="landOnAdminHome_TC_5()[pri:5, instance:ChannelAutomation.Admin.Test.AdminLoginTest@6a4f787b]" name="landOnAdminHome_TC_5" duration-ms="2188" started-at="2017-08-23T11:26:33Z" finished-at="2017-08-23T11:26:35Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- landOnAdminHome_TC_5 -->
-        <test-method status="PASS" signature="landOnListOfGDSPage_TC_6()[pri:6, instance:ChannelAutomation.Admin.Test.AdminLoginTest@6a4f787b]" name="landOnListOfGDSPage_TC_6" duration-ms="2525" started-at="2017-08-10T14:42:08Z" finished-at="2017-08-10T14:42:10Z">
+        <test-method status="PASS" signature="landOnListOfGDSPage_TC_6()[pri:6, instance:ChannelAutomation.Admin.Test.AdminLoginTest@6a4f787b]" name="landOnListOfGDSPage_TC_6" duration-ms="3010" started-at="2017-08-23T11:26:35Z" finished-at="2017-08-23T11:26:38Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- landOnListOfGDSPage_TC_6 -->
-        <test-method status="PASS" signature="landOnAllotmentMatrix_TC_7()[pri:7, instance:ChannelAutomation.Admin.Test.AdminLoginTest@6a4f787b]" name="landOnAllotmentMatrix_TC_7" duration-ms="6348" started-at="2017-08-10T14:42:10Z" finished-at="2017-08-10T14:42:17Z">
+        <test-method status="PASS" signature="landOnAllotmentMatrix_TC_7()[pri:7, instance:ChannelAutomation.Admin.Test.AdminLoginTest@6a4f787b]" name="landOnAllotmentMatrix_TC_7" duration-ms="6349" started-at="2017-08-23T11:26:38Z" finished-at="2017-08-23T11:26:45Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- landOnAllotmentMatrix_TC_7 -->
-        <test-method status="FAIL" signature="SendRulesonChannel_TC_8()[pri:8, instance:ChannelAutomation.Admin.Test.AdminLoginTest@6a4f787b]" name="SendRulesonChannel_TC_8" duration-ms="370433" started-at="2017-08-10T14:42:17Z" finished-at="2017-08-10T14:48:27Z">
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[expected [true] but found [false]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
-	at org.testng.Assert.fail(Assert.java:94)
-	at org.testng.Assert.failNotEquals(Assert.java:513)
-	at org.testng.Assert.assertTrue(Assert.java:42)
-	at org.testng.Assert.assertTrue(Assert.java:52)
-	at ChannelAutomation.Admin.VB.ManageAllotmentsPage.sendRestrictions(ManageAllotmentsPage.java:345)
-	at ChannelAutomation.Admin.Test.AdminLoginTest.SendRulesonChannel_TC_8(AdminLoginTest.java:153)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
-	at org.testng.TestRunner.privateRun(TestRunner.java:782)
-	at org.testng.TestRunner.run(TestRunner.java:632)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
-	at org.testng.TestNG.run(TestNG.java:1064)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
+        <test-method status="PASS" signature="SendRulesonChannel_TC_8()[pri:8, instance:ChannelAutomation.Admin.Test.AdminLoginTest@6a4f787b]" name="SendRulesonChannel_TC_8" duration-ms="127772" started-at="2017-08-23T11:26:45Z" finished-at="2017-08-23T11:28:52Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SendRulesonChannel_TC_8 -->
-        <test-method status="PASS" signature="landOnAdminHome_TC_9()[pri:9, instance:ChannelAutomation.Admin.Test.AdminLoginTest@6a4f787b]" name="landOnAdminHome_TC_9" duration-ms="6057" started-at="2017-08-10T14:48:27Z" finished-at="2017-08-10T14:48:33Z">
+        <test-method status="PASS" signature="landOnAdminHome_TC_9()[pri:9, instance:ChannelAutomation.Admin.Test.AdminLoginTest@6a4f787b]" name="landOnAdminHome_TC_9" duration-ms="1943" started-at="2017-08-23T11:28:52Z" finished-at="2017-08-23T11:28:54Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- landOnAdminHome_TC_9 -->
-        <test-method status="PASS" signature="landOnListOfGDSPage_TC_10()[pri:10, instance:ChannelAutomation.Admin.Test.AdminLoginTest@6a4f787b]" name="landOnListOfGDSPage_TC_10" duration-ms="5437" started-at="2017-08-10T14:48:33Z" finished-at="2017-08-10T14:48:39Z">
+        <test-method status="PASS" signature="landOnListOfGDSPage_TC_10()[pri:10, instance:ChannelAutomation.Admin.Test.AdminLoginTest@6a4f787b]" name="landOnListOfGDSPage_TC_10" duration-ms="4464" started-at="2017-08-23T11:28:54Z" finished-at="2017-08-23T11:28:59Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- landOnListOfGDSPage_TC_10 -->
-        <test-method status="PASS" signature="landOnListofChannels_TC_11()[pri:11, instance:ChannelAutomation.Admin.Test.AdminLoginTest@6a4f787b]" name="landOnListofChannels_TC_11" duration-ms="2802" started-at="2017-08-10T14:48:39Z" finished-at="2017-08-10T14:48:41Z">
+        <test-method status="PASS" signature="landOnListofChannels_TC_11()[pri:11, instance:ChannelAutomation.Admin.Test.AdminLoginTest@6a4f787b]" name="landOnListofChannels_TC_11" duration-ms="2222" started-at="2017-08-23T11:28:59Z" finished-at="2017-08-23T11:29:01Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- landOnListofChannels_TC_11 -->
-        <test-method status="PASS" signature="clickOnChannel_TC_12()[pri:12, instance:ChannelAutomation.Admin.Test.AdminLoginTest@6a4f787b]" name="clickOnChannel_TC_12" duration-ms="3123" started-at="2017-08-10T14:48:41Z" finished-at="2017-08-10T14:48:44Z">
+        <test-method status="PASS" signature="clickOnChannel_TC_12()[pri:12, instance:ChannelAutomation.Admin.Test.AdminLoginTest@6a4f787b]" name="clickOnChannel_TC_12" duration-ms="2809" started-at="2017-08-23T11:29:01Z" finished-at="2017-08-23T11:29:04Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- clickOnChannel_TC_12 -->
-        <test-method status="PASS" signature="clickOnEditPackage_TC_13()[pri:13, instance:ChannelAutomation.Admin.Test.AdminLoginTest@6a4f787b]" name="clickOnEditPackage_TC_13" duration-ms="4215" started-at="2017-08-10T14:48:44Z" finished-at="2017-08-10T14:48:49Z">
+        <test-method status="PASS" signature="clickOnEditPackage_TC_13()[pri:13, instance:ChannelAutomation.Admin.Test.AdminLoginTest@6a4f787b]" name="clickOnEditPackage_TC_13" duration-ms="3933" started-at="2017-08-23T11:29:04Z" finished-at="2017-08-23T11:29:08Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- clickOnEditPackage_TC_13 -->
-        <test-method status="FAIL" signature="sendRatesOnChannel_TC_14()[pri:14, instance:ChannelAutomation.Admin.Test.AdminLoginTest@6a4f787b]" name="sendRatesOnChannel_TC_14" duration-ms="553077" started-at="2017-08-10T14:48:49Z" finished-at="2017-08-10T14:58:02Z">
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[expected [true] but found [false]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
-	at org.testng.Assert.fail(Assert.java:94)
-	at org.testng.Assert.failNotEquals(Assert.java:513)
-	at org.testng.Assert.assertTrue(Assert.java:42)
-	at org.testng.Assert.assertTrue(Assert.java:52)
-	at ChannelAutomation.Admin.VB.VerifyRatesOnChannel.verifyrates(VerifyRatesOnChannel.java:128)
-	at ChannelAutomation.Admin.Test.AdminLoginTest.sendRatesOnChannel_TC_14(AdminLoginTest.java:242)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
-	at org.testng.TestRunner.privateRun(TestRunner.java:782)
-	at org.testng.TestRunner.run(TestRunner.java:632)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
-	at org.testng.TestNG.run(TestNG.java:1064)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
+        <test-method status="PASS" signature="sendRatesOnChannel_TC_14()[pri:14, instance:ChannelAutomation.Admin.Test.AdminLoginTest@6a4f787b]" name="sendRatesOnChannel_TC_14" duration-ms="216763" started-at="2017-08-23T11:29:08Z" finished-at="2017-08-23T11:32:45Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- sendRatesOnChannel_TC_14 -->
-        <test-method status="PASS" signature="backToAdminHomePagel_TC_15()[pri:15, instance:ChannelAutomation.Admin.Test.AdminLoginTest@6a4f787b]" name="backToAdminHomePagel_TC_15" duration-ms="59" started-at="2017-08-10T14:58:02Z" finished-at="2017-08-10T14:58:02Z">
+        <test-method status="PASS" signature="backToAdminHomePagel_TC_15()[pri:15, instance:ChannelAutomation.Admin.Test.AdminLoginTest@6a4f787b]" name="backToAdminHomePagel_TC_15" duration-ms="96" started-at="2017-08-23T11:32:45Z" finished-at="2017-08-23T11:32:45Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- backToAdminHomePagel_TC_15 -->
-        <test-method status="PASS" signature="landOnAdminHome_TC_16()[pri:16, instance:ChannelAutomation.Admin.Test.AdminLoginTest@6a4f787b]" name="landOnAdminHome_TC_16" duration-ms="8052" started-at="2017-08-10T14:58:02Z" finished-at="2017-08-10T14:58:10Z">
+        <test-method status="PASS" signature="landOnAdminHome_TC_16()[pri:16, instance:ChannelAutomation.Admin.Test.AdminLoginTest@6a4f787b]" name="landOnAdminHome_TC_16" duration-ms="2395" started-at="2017-08-23T11:32:45Z" finished-at="2017-08-23T11:32:47Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- landOnAdminHome_TC_16 -->
-        <test-method status="PASS" signature="logoutAdmin_TC_17()[pri:17, instance:ChannelAutomation.Admin.Test.AdminLoginTest@6a4f787b]" name="logoutAdmin_TC_17" duration-ms="5756" started-at="2017-08-10T14:58:10Z" finished-at="2017-08-10T14:58:16Z">
+        <test-method status="PASS" signature="logoutAdmin_TC_17()[pri:17, instance:ChannelAutomation.Admin.Test.AdminLoginTest@6a4f787b]" name="logoutAdmin_TC_17" duration-ms="2347" started-at="2017-08-23T11:32:47Z" finished-at="2017-08-23T11:32:49Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logoutAdmin_TC_17 -->

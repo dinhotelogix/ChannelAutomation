@@ -224,6 +224,7 @@ public class AdminLoginTest
 	}
 	//Sync and Send rate On Channel
 	//@Test(priority=14, groups = {"testDebug" })
+
 	@Test(priority=14, groups = {"BR","Smoke","SendRate","ChannelManager"})
 	public void sendRatesOnChannel_TC_14()
 	{
@@ -249,6 +250,7 @@ public class AdminLoginTest
 	
 	//Close Window and Back to Admin Parent Window
 	//@Test(priority=15, groups = {"testDebug" })
+
 	@Test(priority=15, groups = {"BR","Smoke","SendRate","ChannelManager"})
 	public void backToAdminHomePagel_TC_15() {
 		try {
@@ -273,6 +275,7 @@ public class AdminLoginTest
 		}
 	}
 	
+
 	//Logout Admin
 	//@Test(priority=17, groups = {"testDebug" })
 	@Test(priority=17, groups = {"BR","Smoke","SendRate","ChannelManager"})
@@ -284,15 +287,9 @@ public class AdminLoginTest
 			Assert.assertTrue(true);
 		} catch (Exception e) {
 			System.out.println("Issue in Admin Logout"+e.getMessage());
-			Assert.assertTrue(false);
+
+
 		}
 	}
-	
-	//@Test(priority=1, groups = {"testDebug"})
-	public void testDebug() 
-	{
-		//String randomNumber = Constants.ChannelManagerCode+GMethods.getUniqueNumber();
-		String addedDaysDate = GMethods.getAddedCurrentYearMonthDate(20);
-		System.out.println("New Date | "+addedDaysDate);
-	}
+
 }

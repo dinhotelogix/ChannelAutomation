@@ -15,6 +15,7 @@ public class ListOfChannelsPage
 	public ListofPackagesPage clickOnChannelName()
 	{
 		try {
+			
 			channelName.click();
 			Assert.assertTrue(true);
 		} catch (Exception e) {
