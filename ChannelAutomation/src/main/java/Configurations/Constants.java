@@ -22,6 +22,7 @@ public class Constants
 	
 	public static final String ServerURL = "https://staygrid.com/admine/login/login/redirect/1/rurl/JTJGYWRtaW5l";
 	//public static final String ServerURL ="http://hotelogix.stayezee.com/admine/login/login/";
+
 	public static final int WaitForCaptcha = 10; 
 	public static final int AddDays = 15;
 	public static final int fromDate_ResAddDays = 2;
