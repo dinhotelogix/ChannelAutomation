@@ -10,9 +10,15 @@
     <!--   <include name="VB" /> -->
     <!-- <include name="ChannelManager" /> --> 
    	<!--<include name="Login" />  -->
+<<<<<<< HEAD
    	<!--  <include name="testDebug" /> --> 
     <!--    <include name="BR" /> -->
         <include name="Smoke" />
+=======
+   	<!--   <include name="testDebug" /> -->  
+      
+     <include name="BR" />
+>>>>>>> branch 'master' of https://github.com/dinhotelogix/ChannelAutomation.git
       </run>
    </groups>
    
