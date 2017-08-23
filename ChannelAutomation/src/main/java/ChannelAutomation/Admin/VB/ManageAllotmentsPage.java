@@ -138,6 +138,7 @@ public class ManageAllotmentsPage
 						
 				if (BGColor.equalsIgnoreCase(Constants.BackgroundColor_Success)) 
 				{
+					getAllotmentForADay();
 					Assert.assertTrue(true);
 				}else if (BGColor.equalsIgnoreCase(Constants.BackgroundColor_InProgress)) 
 				{
@@ -150,6 +151,7 @@ public class ManageAllotmentsPage
 					
 					if (BGColor1.equalsIgnoreCase(Constants.BackgroundColor_Success)) 
 					{
+						getAllotmentForADay();
 						Assert.assertTrue(true);
 					}else if (BGColor1.equalsIgnoreCase(Constants.BackgroundColor_InProgress)) 
 					{
@@ -160,6 +162,7 @@ public class ManageAllotmentsPage
 						System.out.println("Third Time BG Color |"+BGColor2);
 						if (BGColor2.equalsIgnoreCase(Constants.BackgroundColor_Success)) 
 						{
+							getAllotmentForADay();
 							Assert.assertTrue(true);
 						}else if (BGColor2.equalsIgnoreCase(Constants.BackgroundColor_InProgress)) 
 						{
@@ -170,6 +173,7 @@ public class ManageAllotmentsPage
 							System.out.println("Third Time BG Color"+BGColor3);
 							if (BGColor3.equalsIgnoreCase(Constants.BackgroundColor_Success)) 
 							{
+								getAllotmentForADay();
 								Assert.assertTrue(true);
 							}else if (BGColor.equalsIgnoreCase(Constants.BackgroundColor_InProgress)) 
 							{
@@ -197,6 +201,13 @@ public class ManageAllotmentsPage
 			System.out.println("Issue In Verify Allotment"+e.getMessage());
 			Assert.assertTrue(false);
 		}
+		
+	}
+	/**
+	 * After Saving Allotment successfully, it will capture Allotment for one day
+	 */
+	public void captureAllotment()
+	{
 		
 	}
 	/**
@@ -376,6 +387,7 @@ public class ManageAllotmentsPage
 	public void getAllotmentForADay()
 	{
 		try {
+			//System.out.println("");
 			String fromDate = GMethods.getAddedCurrentYearMonthDate(Constants.fromDate_ResAddDays);
 			String dat = fromDate.substring(8,10);
 			int size = allotmentDates.size();

@@ -20,10 +20,16 @@ public class Constants
 	//public static final String ServerURL ="http://livestable.hx.local/admine/login";
 	public static final String Browser = "FF";
 	
-	public static final String ServerURL = "https://staygrid.com/admine/login/login/redirect/1/rurl/JTJGYWRtaW5l";
-	//public static final String ServerURL ="http://hotelogix.stayezee.com/admine/login/login/";
-
-	public static final int WaitForCaptcha = 10; 
+	public static final String Server = "https://staygrid.com/";
+	//public static final String Server ="http://hotelogix.stayezee.com/";
+	//public static final String Server ="http://hotelogix.net/";
+	
+	public static final String Console_Admin = "admine";
+	public static final String Console_Frontdesk = "frontdesk";
+	
+	public static final String ServerURL = Server+Console_Admin;
+	
+	public static final int WaitForCaptcha = 0; 
 
 	public static final int AddDays = 15;
 	public static final int fromDate_ResAddDays = 2;
@@ -37,9 +43,9 @@ public class Constants
 	//-----------Livestable Middle Man server--------------------------
 		//public static final String MiddleManServer = "http://middleman.hx.local/";
 		//-----------DotNet middle Man Server-----------------------------
-		//public static final String MiddleManServer = "http://mmdemo.stayezee.com/";
+		public static final String MiddleManServer = "http://mmdemo.stayezee.com/";
 		//-----------Staygrid Middle Man Server---------------------------
-		public static final String MiddleManServer = "https://mmlive.stayezee.com/";
+		//public static final String MiddleManServer = "https://mmlive.stayezee.com/";
 		
 		//-----------------Busy Rooms Channel manager Code---------------------------
 		public static final String ChannelManagerCode = "BZR";
@@ -65,5 +71,12 @@ public class Constants
 	public static final int NinethColumn = 8;
 	public static final int TenthColumn = 9;
 	public static final int EleventhColumn = 10;
+
+	//----------------------------Web Reservation----------------------------------
+	//Hotel Code in String format for all Servers
+	public static String WebBookingURLforHotel_708 = "webreservation/index/index/hidHotelIdWebOut/QV5TX0ZSczM0XzcwOF9GNXRlcjkwODdzXylkaGZfZHJ0ZXI3XzcwOF9oZ2ZoX2deZDg1NA==/hidLanguageId/1/";
+	
+	public static String WebBookingURL = Server+WebBookingURLforHotel_708;
+	
 	
 }

@@ -224,7 +224,6 @@ public class AdminLoginTest
 	}
 	//Sync and Send rate On Channel
 	//@Test(priority=14, groups = {"testDebug" })
-
 	@Test(priority=14, groups = {"BR","Smoke","SendRate","ChannelManager"})
 	public void sendRatesOnChannel_TC_14()
 	{

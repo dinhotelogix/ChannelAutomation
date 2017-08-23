@@ -187,9 +187,7 @@ public class GMethods
 				{
 					newDate = dateToSelect;
 				}
-				
 								
-				
 				//int date5 = Integer.parseInt(date4)+days;
 				//Need to Add 0 if Date is less than 9 to make -MM-dd format
 				String date6;
@@ -201,7 +199,7 @@ public class GMethods
 				}
 				
 				String mon1;
-				if(newDate<=9)
+				if(mon<=9)
 				{
 					mon1 = "0"+Integer.toString(mon);
 				}else {
@@ -309,8 +307,9 @@ public class GMethods
 		 * Select Date In Open Canendar
 		 * @param calID
 		 * @param newDate
+		 * @throws InterruptedException 
 		 */
-		public static void selectDateInOpenCal(String calID, int newDate) {
+		public static void selectDateInOpenCal(String calID, int newDate) throws InterruptedException {
 			String date = Integer.toString(newDate);
 			
 			WebElement ele = driver.findElement(By.id(calID));
@@ -319,7 +318,9 @@ public class GMethods
 			{
 				if (cell.getText().equals(date)) 
 				{
+					Thread.sleep(500);
 					cell.click();
+					//System.out.println("");
 					break;
 				}
 			}

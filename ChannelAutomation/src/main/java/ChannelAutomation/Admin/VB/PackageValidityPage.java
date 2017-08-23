@@ -50,6 +50,9 @@ public class PackageValidityPage
 	
 	@FindBy(id="calToContainer_nav_submit")
 	public static WebElement ToCalOk;
+	
+	@FindBy(xpath="//div[@id='calToContainer']//table//div//a[3]")
+	public static WebElement CalNextArrow;
 		
 	//Switch to New Window
 	public void switchNewWindow()
@@ -66,6 +69,29 @@ public class PackageValidityPage
 	 */
 	public void saveValidity()
 	{
+		try {
+			CalFrom.click();
+		} catch (Exception e) {
+			System.out.println("Issue in Click on Calendar"+e.getMessage());
+		}
+		
+		//Select Current Day Date
+				try {
+					System.out.println("a");
+					String CalID = "cal1";
+					int addDays = 0;
+					String TodayDate = GMethods.getCurrentDateMonthYear();
+					String currDate = TodayDate.substring(3,5);
+					int datToSelect = addDays+Integer.parseInt(currDate);
+					int currMonth = Integer.parseInt(TodayDate.substring(0,2));
+					
+					
+					GMethods.selectDateInCalender(CalID, currMonth, datToSelect,CalNextArrow );
+								
+				} catch (Exception e) {
+					System.out.println("Issue in Select To Date");
+				}
+		/*=================================================================================
 		//Click On  Cal: From
 		try {
 			CalFrom.click();
@@ -92,9 +118,31 @@ public class PackageValidityPage
 		} catch (Exception e) {
 			System.out.println("Issue in Select Today Date | "+e.getMessage());
 		}
-		
+		//=============================================================================================== */
 		//Click On To Cal
+			try {
+				CalTo.click();
+			} catch (Exception e) {
+				System.out.println("Issue in Click on Calendar To"+e.getMessage());
+			}
+			
+			try {
+				String CalID = "calTo";
+				int addDays = Constants.AddDays;
 				
+				String TodayDate = GMethods.getCurrentDateMonthYear();
+				String currDate = TodayDate.substring(3,5);
+				int datToSelect = addDays+Integer.parseInt(currDate);
+				int currMonth = Integer.parseInt(TodayDate.substring(0,2));
+				
+				
+				
+				GMethods.selectDateInCalender(CalID, currMonth, datToSelect, CalNextArrow );	
+				} catch (Exception e) {
+					System.out.println("Issue in Select To Date"+e.getMessage());	
+				}
+				
+		/*=================================================================================================		
 		try {
 			CalTo.click();
 		} catch (Exception e) {
@@ -136,7 +184,7 @@ public class PackageValidityPage
 		} catch (Exception e) {
 			System.out.println("Issue in Select "+e.getMessage());
 		}
-		
+		//=======================================================================================================*/
 		/*
 		//Select From Date
 		try {

@@ -4,7 +4,7 @@
   <test name="ChannelManagerTest">
     <groups>
       <run>
-        <include name="Smoke"/>
+        <include name="BR"/>
       </run>
     </groups>
     <classes>

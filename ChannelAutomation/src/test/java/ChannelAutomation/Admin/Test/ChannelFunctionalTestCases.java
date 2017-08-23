@@ -147,7 +147,7 @@ public class ChannelFunctionalTestCases
 			}
 		}
 		//Check Allotment Update in Admin
-
+		
 		//@Test(priority=23, groups = {"testDebug"})
 		@Test(priority=23, groups = {"BR","ChannelManager"})
 		public void VerifyAllotmentUpdateInAdminConsole_TC_23()

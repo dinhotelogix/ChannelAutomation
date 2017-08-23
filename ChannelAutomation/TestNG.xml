@@ -14,11 +14,11 @@
    	<!--  <include name="testDebug" /> --> 
     <!--    <include name="BR" /> -->
         
-        <include name="Smoke" />
+    <!-- <include name="Smoke" /> -->
 
    	<!--   <include name="testDebug" /> -->  
       
-     <!-- <include name="BR" /> -->
+     <include name="BR" />
 
       </run>
    </groups>
