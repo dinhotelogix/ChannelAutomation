@@ -25,10 +25,7 @@ public class FrontdeskHomePage
 	
 	@FindBy(xpath="//a[text()='Logout ']")
 	public static WebElement frontdeskLogout;
-	
-	
-	
-	
+		
 	//Click Cancel On Perform Night Audit window
 	public void clickCancel()
 	{
