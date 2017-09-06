@@ -4,11 +4,12 @@
   <test name="ChannelManagerTest">
     <groups>
       <run>
-        <include name="BR"/>
+        <include name="Smoke"/>
       </run>
     </groups>
     <classes>
       <class name="ChannelAutomation.Admin.Test.AdminLoginTest"/>
+      <class name="ChannelAutomation.Admin.Test.ChannelFunctionalTestCases"/>
     </classes>
   </test> <!-- ChannelManagerTest -->
 </suite> <!-- Failed suite [ChannelManagerTest] -->

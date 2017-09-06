@@ -1,9 +1,12 @@
 package ChannelAutomation.Admin.Test;
 
+import org.openqa.selenium.support.PageFactory;
 import org.testng.Assert;
+import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
 import ChannelAutomation.Admin.Base.AdminHomePage;
+import ChannelAutomation.Admin.Base.AdminLoginPage;
 import ChannelAutomation.Admin.Base.BasePage;
 import ChannelAutomation.Admin.VB.ListOfOtherGDSPage;
 import ChannelAutomation.Admin.VB.ListofPackagesPage;
@@ -15,14 +18,68 @@ import ChannelAutomation.Frontdesk.TapeChart.FrontdeskHomePage;
 import ChannelAutomation.Frontdesk.TapeChart.ReservationSearchResultPage;
 import ChannelAutomation.Frontdesk.TapeChart.ReservationViewDetailsPage;
 import ChannelAutomation.Reservations.BusyRoomsPushReservation;
+import Configurations.Constants;
+import Configurations.ExcelUtils;
+import Configurations.GMethods;
 
 public class ChannelFunctionalTestCases 
-{
+{	
+	@BeforeTest()
+	public void setExcelPath() throws Exception
+	{
+		ExcelUtils.setExcelFile(Constants.Path_ExcelData);	
+	}
 	
+	//Login to Admin Console
 	
+	@Test(priority=1, groups = {"testDebug" })
+	//@Test(priority=1, groups = {"Login","BR", "Allotment"})
+	public void AdminLogin_TC_1()
+	{
+		try {			
+			//Launch Browser and URL
+			try {
+				GMethods.lounchBrowserAndUrl(Constants.Browser, Constants.ServerURL);	
+			} catch (Exception e) {
+				e.getMessage();
+			}
+			PageFactory.initElements(GMethods.driver, AdminLoginPage.class);
+			
+			System.out.println("2. Admin Login");
+			//Create Object of Admin Login Page
+			AdminLoginPage ALPage = new AdminLoginPage();
+			//Login To Admin Console
+			AdminHomePage AHP = ALPage.login();
+			AHP.verifyAdminPage();
+			//Verify Login
+			
+		} catch (Exception e) {
+			e.getMessage();
+		}
+	}
 	
+	//This Test Case will Capture Allotment for a particulate date date in Admin Console first then will 
+	//move to Frontdesk and will create a single reservation for the same date
+	//and then again go to Admin Console and will check allotment update for the same date
+	@Test(priority=2, groups = {"testDebug" })
+	public void checkAllotmentUpdateForSingleReservation()
+	{
+		AdminHomePage AHP = new AdminHomePage();
+		ListOfOtherGDSPage LOGP = AHP.landOnOtherGDSPackage();
+		LOGP.verifyListOfOtherGDSPage();
+		ManageAllotmentsPage MAP =LOGP.clickManageAllotments();
+		MAP.verifyManageAllotmentsPage();
+		MAP.getAllotmentForADay();
+		
+		AHP.clickFrontdeskLink();
+		BasePage BP = new BasePage();
+		FrontdeskContinueTrialPage FCT =BP.verifyPage();
+		FrontdeskCashCounter FCC = FCT.clickContinueWithTrial();
+		FrontdeskHomePage FHP =FCC.selectCounter();
+		FHP.clickCancel();
+	}
 	
-	//Get Allotment for a particular day
+		//Get Allotment for a particular day
 		//@Test(priority=18, groups = {"BR", "SendRate","ChannelManager"})
 		//@Test(priority=17, groups = {"testDebug"})
 		public void CaptureAllotment_TC_18()
@@ -212,5 +269,14 @@ public class ChannelFunctionalTestCases
 			}
 		}
 
+		//@Test(priority=18, groups = {"testDebug" })
+		public void debugCode()
+		{
+			try {
+				System.out.println("3. Debugging Class : Channel Functional Test cases");
+			} catch (Exception e) {
+				
+			}
+		}
 
 }

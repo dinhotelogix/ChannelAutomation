@@ -78,5 +78,10 @@ public class FrontdeskHomePage
 		return FLP;
 	}
 	
+	public void selectCurrentDateInFrontdeskCanender()
+	{
+		
+	}
+	
 	
 }

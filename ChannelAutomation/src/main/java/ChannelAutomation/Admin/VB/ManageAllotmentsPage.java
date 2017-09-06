@@ -397,13 +397,13 @@ public class ManageAllotmentsPage
 				if(date.contains(dat))
 				{
 					String roomType = Constants.PushResInRoomType;
-					if(roomType=="SRM")
+					if(roomType=="11913")
 					{
 						AllotmentValue = allotmentValuesSRMRoomType.get(i).getText().trim();
-						//System.out.println("Allotment:"+AllotmentValue);
+						System.out.println("Allotment:"+AllotmentValue);
 					}else {
 						AllotmentValue = allotmentValuesSTDRoomType.get(i).getText().trim();
-						//System.out.println("Allotment:"+AllotmentValue);
+						System.out.println("Allotment:"+AllotmentValue);
 					}
 				}
 			}

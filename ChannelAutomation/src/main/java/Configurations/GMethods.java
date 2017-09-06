@@ -16,6 +16,7 @@ import net.sourceforge.htmlunit.corejs.javascript.regexp.SubString;
 
 import org.openqa.selenium.Alert;
 import org.openqa.selenium.By;
+import org.openqa.selenium.Dimension;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.UnexpectedAlertBehaviour;
 import org.openqa.selenium.WebDriver;
@@ -23,6 +24,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.ie.InternetExplorerDriver;
+import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.remote.CapabilityType;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.support.ui.Select;
@@ -436,6 +438,29 @@ public class GMethods
 				e.getMessage();
 			}
 			return dateTime;
+		}
+		
+		/**
+		 * This method will Drag and Drop on Frontdesk tapechart infront of Room Type
+		 * @param eleDragFrom :Xpath of Check In Date on Tapechart
+		 * @param nights : No of Nights we want to create booking for
+		 */
+		public static void dragDropOnFrontdeskTapechart(String eleDragFrom , int nights)
+		{
+			try {
+				WebElement eleRes = driver.findElement(By.xpath(eleDragFrom));
+				Dimension dimOfOneCell = eleRes.getSize();
+				
+				int x1 = dimOfOneCell.width;
+				int x = (int) ((x1*0.75)*nights);
+				int y = dimOfOneCell.height;
+				
+				
+				Actions act = new Actions(driver);
+				act.dragAndDropBy(eleRes, x, y).click().perform();;
+			} catch (Exception e) {
+				System.out.println("Issue in Drag and Drop on Frontdesk:"+e.getMessage());
+			}
 		}
 		 
 		

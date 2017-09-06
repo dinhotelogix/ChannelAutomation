@@ -290,5 +290,14 @@ public class AdminLoginTest
 
 		}
 	}
-
+	
+	//@Test(priority=18, groups = {"testDebug" })
+	public void debugCode()
+	{
+		try {
+			System.out.println("1. Debugging Class : Admin Login test");
+		} catch (Exception e) {
+			
+		}
+	}
 }

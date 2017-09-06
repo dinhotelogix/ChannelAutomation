@@ -3,6 +3,8 @@
 
 <suite name="ChannelManagerTest">
    <test name="ChannelManagerTest">
+
+	
    
    <groups>
       <run>
@@ -16,16 +18,18 @@
         
     <!-- <include name="Smoke" /> -->
 
-   	<!--   <include name="testDebug" /> -->  
-      
-     <include name="BR" />
-
+		   	 	<include name="Smoke" />   
+     
       </run>
    </groups>
    
    <classes>
-      <class name="ChannelAutomation.Admin.Test.AdminLoginTest" />
+   		<class name="ChannelAutomation.Admin.Test.AdminLoginTest" />
+   		<class name="ChannelAutomation.Admin.Test.ChannelFunctionalTestCases" />
+      	
+    
    </classes>
+   
    
    </test>
 </suite>

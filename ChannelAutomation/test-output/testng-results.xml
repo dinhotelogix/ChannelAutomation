@@ -2,161 +2,161 @@
 <testng-results skipped="0" failed="0" total="17" passed="17">
   <reporter-output>
   </reporter-output>
-  <suite name="ChannelManagerTest" duration-ms="665527" started-at="2017-08-28T13:11:39Z" finished-at="2017-08-28T13:22:45Z">
+  <suite name="ChannelManagerTest" duration-ms="423256" started-at="2017-09-05T07:34:09Z" finished-at="2017-09-05T07:41:12Z">
     <groups>
       <group name="BR">
-        <method signature="AdminLoginTest.AdminLogin_TC_1()[pri:1, instance:ChannelAutomation.Admin.Test.AdminLoginTest@6a4f787b]" name="AdminLogin_TC_1" class="ChannelAutomation.Admin.Test.AdminLoginTest"/>
-        <method signature="AdminLoginTest.SendRulesonChannel_TC_8()[pri:8, instance:ChannelAutomation.Admin.Test.AdminLoginTest@6a4f787b]" name="SendRulesonChannel_TC_8" class="ChannelAutomation.Admin.Test.AdminLoginTest"/>
-        <method signature="AdminLoginTest.backToAdminHomePagel_TC_15()[pri:15, instance:ChannelAutomation.Admin.Test.AdminLoginTest@6a4f787b]" name="backToAdminHomePagel_TC_15" class="ChannelAutomation.Admin.Test.AdminLoginTest"/>
-        <method signature="AdminLoginTest.clickOnChannel_TC_12()[pri:12, instance:ChannelAutomation.Admin.Test.AdminLoginTest@6a4f787b]" name="clickOnChannel_TC_12" class="ChannelAutomation.Admin.Test.AdminLoginTest"/>
-        <method signature="AdminLoginTest.clickOnEditPackage_TC_13()[pri:13, instance:ChannelAutomation.Admin.Test.AdminLoginTest@6a4f787b]" name="clickOnEditPackage_TC_13" class="ChannelAutomation.Admin.Test.AdminLoginTest"/>
-        <method signature="AdminLoginTest.landOnAdminHome_TC_16()[pri:16, instance:ChannelAutomation.Admin.Test.AdminLoginTest@6a4f787b]" name="landOnAdminHome_TC_16" class="ChannelAutomation.Admin.Test.AdminLoginTest"/>
-        <method signature="AdminLoginTest.landOnAdminHome_TC_5()[pri:5, instance:ChannelAutomation.Admin.Test.AdminLoginTest@6a4f787b]" name="landOnAdminHome_TC_5" class="ChannelAutomation.Admin.Test.AdminLoginTest"/>
-        <method signature="AdminLoginTest.landOnAdminHome_TC_9()[pri:9, instance:ChannelAutomation.Admin.Test.AdminLoginTest@6a4f787b]" name="landOnAdminHome_TC_9" class="ChannelAutomation.Admin.Test.AdminLoginTest"/>
-        <method signature="AdminLoginTest.landOnAllotmentMatrix_TC_3()[pri:3, instance:ChannelAutomation.Admin.Test.AdminLoginTest@6a4f787b]" name="landOnAllotmentMatrix_TC_3" class="ChannelAutomation.Admin.Test.AdminLoginTest"/>
-        <method signature="AdminLoginTest.landOnAllotmentMatrix_TC_7()[pri:7, instance:ChannelAutomation.Admin.Test.AdminLoginTest@6a4f787b]" name="landOnAllotmentMatrix_TC_7" class="ChannelAutomation.Admin.Test.AdminLoginTest"/>
-        <method signature="AdminLoginTest.landOnListOfGDSPage_TC_10()[pri:10, instance:ChannelAutomation.Admin.Test.AdminLoginTest@6a4f787b]" name="landOnListOfGDSPage_TC_10" class="ChannelAutomation.Admin.Test.AdminLoginTest"/>
-        <method signature="AdminLoginTest.landOnListOfGDSPage_TC_2()[pri:2, instance:ChannelAutomation.Admin.Test.AdminLoginTest@6a4f787b]" name="landOnListOfGDSPage_TC_2" class="ChannelAutomation.Admin.Test.AdminLoginTest"/>
-        <method signature="AdminLoginTest.landOnListOfGDSPage_TC_6()[pri:6, instance:ChannelAutomation.Admin.Test.AdminLoginTest@6a4f787b]" name="landOnListOfGDSPage_TC_6" class="ChannelAutomation.Admin.Test.AdminLoginTest"/>
-        <method signature="AdminLoginTest.landOnListofChannels_TC_11()[pri:11, instance:ChannelAutomation.Admin.Test.AdminLoginTest@6a4f787b]" name="landOnListofChannels_TC_11" class="ChannelAutomation.Admin.Test.AdminLoginTest"/>
-        <method signature="AdminLoginTest.logoutAdmin_TC_17()[pri:17, instance:ChannelAutomation.Admin.Test.AdminLoginTest@6a4f787b]" name="logoutAdmin_TC_17" class="ChannelAutomation.Admin.Test.AdminLoginTest"/>
-        <method signature="AdminLoginTest.saveAlotments_TC_4()[pri:4, instance:ChannelAutomation.Admin.Test.AdminLoginTest@6a4f787b]" name="saveAlotments_TC_4" class="ChannelAutomation.Admin.Test.AdminLoginTest"/>
-        <method signature="AdminLoginTest.sendRatesOnChannel_TC_14()[pri:14, instance:ChannelAutomation.Admin.Test.AdminLoginTest@6a4f787b]" name="sendRatesOnChannel_TC_14" class="ChannelAutomation.Admin.Test.AdminLoginTest"/>
+        <method signature="AdminLoginTest.AdminLogin_TC_1()[pri:1, instance:ChannelAutomation.Admin.Test.AdminLoginTest@685cb137]" name="AdminLogin_TC_1" class="ChannelAutomation.Admin.Test.AdminLoginTest"/>
+        <method signature="AdminLoginTest.SendRulesonChannel_TC_8()[pri:8, instance:ChannelAutomation.Admin.Test.AdminLoginTest@685cb137]" name="SendRulesonChannel_TC_8" class="ChannelAutomation.Admin.Test.AdminLoginTest"/>
+        <method signature="AdminLoginTest.backToAdminHomePagel_TC_15()[pri:15, instance:ChannelAutomation.Admin.Test.AdminLoginTest@685cb137]" name="backToAdminHomePagel_TC_15" class="ChannelAutomation.Admin.Test.AdminLoginTest"/>
+        <method signature="AdminLoginTest.clickOnChannel_TC_12()[pri:12, instance:ChannelAutomation.Admin.Test.AdminLoginTest@685cb137]" name="clickOnChannel_TC_12" class="ChannelAutomation.Admin.Test.AdminLoginTest"/>
+        <method signature="AdminLoginTest.clickOnEditPackage_TC_13()[pri:13, instance:ChannelAutomation.Admin.Test.AdminLoginTest@685cb137]" name="clickOnEditPackage_TC_13" class="ChannelAutomation.Admin.Test.AdminLoginTest"/>
+        <method signature="AdminLoginTest.landOnAdminHome_TC_16()[pri:16, instance:ChannelAutomation.Admin.Test.AdminLoginTest@685cb137]" name="landOnAdminHome_TC_16" class="ChannelAutomation.Admin.Test.AdminLoginTest"/>
+        <method signature="AdminLoginTest.landOnAdminHome_TC_5()[pri:5, instance:ChannelAutomation.Admin.Test.AdminLoginTest@685cb137]" name="landOnAdminHome_TC_5" class="ChannelAutomation.Admin.Test.AdminLoginTest"/>
+        <method signature="AdminLoginTest.landOnAdminHome_TC_9()[pri:9, instance:ChannelAutomation.Admin.Test.AdminLoginTest@685cb137]" name="landOnAdminHome_TC_9" class="ChannelAutomation.Admin.Test.AdminLoginTest"/>
+        <method signature="AdminLoginTest.landOnAllotmentMatrix_TC_3()[pri:3, instance:ChannelAutomation.Admin.Test.AdminLoginTest@685cb137]" name="landOnAllotmentMatrix_TC_3" class="ChannelAutomation.Admin.Test.AdminLoginTest"/>
+        <method signature="AdminLoginTest.landOnAllotmentMatrix_TC_7()[pri:7, instance:ChannelAutomation.Admin.Test.AdminLoginTest@685cb137]" name="landOnAllotmentMatrix_TC_7" class="ChannelAutomation.Admin.Test.AdminLoginTest"/>
+        <method signature="AdminLoginTest.landOnListOfGDSPage_TC_10()[pri:10, instance:ChannelAutomation.Admin.Test.AdminLoginTest@685cb137]" name="landOnListOfGDSPage_TC_10" class="ChannelAutomation.Admin.Test.AdminLoginTest"/>
+        <method signature="AdminLoginTest.landOnListOfGDSPage_TC_2()[pri:2, instance:ChannelAutomation.Admin.Test.AdminLoginTest@685cb137]" name="landOnListOfGDSPage_TC_2" class="ChannelAutomation.Admin.Test.AdminLoginTest"/>
+        <method signature="AdminLoginTest.landOnListOfGDSPage_TC_6()[pri:6, instance:ChannelAutomation.Admin.Test.AdminLoginTest@685cb137]" name="landOnListOfGDSPage_TC_6" class="ChannelAutomation.Admin.Test.AdminLoginTest"/>
+        <method signature="AdminLoginTest.landOnListofChannels_TC_11()[pri:11, instance:ChannelAutomation.Admin.Test.AdminLoginTest@685cb137]" name="landOnListofChannels_TC_11" class="ChannelAutomation.Admin.Test.AdminLoginTest"/>
+        <method signature="AdminLoginTest.logoutAdmin_TC_17()[pri:17, instance:ChannelAutomation.Admin.Test.AdminLoginTest@685cb137]" name="logoutAdmin_TC_17" class="ChannelAutomation.Admin.Test.AdminLoginTest"/>
+        <method signature="AdminLoginTest.saveAlotments_TC_4()[pri:4, instance:ChannelAutomation.Admin.Test.AdminLoginTest@685cb137]" name="saveAlotments_TC_4" class="ChannelAutomation.Admin.Test.AdminLoginTest"/>
+        <method signature="AdminLoginTest.sendRatesOnChannel_TC_14()[pri:14, instance:ChannelAutomation.Admin.Test.AdminLoginTest@685cb137]" name="sendRatesOnChannel_TC_14" class="ChannelAutomation.Admin.Test.AdminLoginTest"/>
       </group> <!-- BR -->
       <group name="SendRule">
-        <method signature="AdminLoginTest.AdminLogin_TC_1()[pri:1, instance:ChannelAutomation.Admin.Test.AdminLoginTest@6a4f787b]" name="AdminLogin_TC_1" class="ChannelAutomation.Admin.Test.AdminLoginTest"/>
+        <method signature="AdminLoginTest.AdminLogin_TC_1()[pri:1, instance:ChannelAutomation.Admin.Test.AdminLoginTest@685cb137]" name="AdminLogin_TC_1" class="ChannelAutomation.Admin.Test.AdminLoginTest"/>
       </group> <!-- SendRule -->
       <group name="ChannelManager">
-        <method signature="AdminLoginTest.AdminLogin_TC_1()[pri:1, instance:ChannelAutomation.Admin.Test.AdminLoginTest@6a4f787b]" name="AdminLogin_TC_1" class="ChannelAutomation.Admin.Test.AdminLoginTest"/>
-        <method signature="AdminLoginTest.SendRulesonChannel_TC_8()[pri:8, instance:ChannelAutomation.Admin.Test.AdminLoginTest@6a4f787b]" name="SendRulesonChannel_TC_8" class="ChannelAutomation.Admin.Test.AdminLoginTest"/>
-        <method signature="AdminLoginTest.backToAdminHomePagel_TC_15()[pri:15, instance:ChannelAutomation.Admin.Test.AdminLoginTest@6a4f787b]" name="backToAdminHomePagel_TC_15" class="ChannelAutomation.Admin.Test.AdminLoginTest"/>
-        <method signature="AdminLoginTest.clickOnChannel_TC_12()[pri:12, instance:ChannelAutomation.Admin.Test.AdminLoginTest@6a4f787b]" name="clickOnChannel_TC_12" class="ChannelAutomation.Admin.Test.AdminLoginTest"/>
-        <method signature="AdminLoginTest.clickOnEditPackage_TC_13()[pri:13, instance:ChannelAutomation.Admin.Test.AdminLoginTest@6a4f787b]" name="clickOnEditPackage_TC_13" class="ChannelAutomation.Admin.Test.AdminLoginTest"/>
-        <method signature="AdminLoginTest.landOnAdminHome_TC_16()[pri:16, instance:ChannelAutomation.Admin.Test.AdminLoginTest@6a4f787b]" name="landOnAdminHome_TC_16" class="ChannelAutomation.Admin.Test.AdminLoginTest"/>
-        <method signature="AdminLoginTest.landOnAdminHome_TC_5()[pri:5, instance:ChannelAutomation.Admin.Test.AdminLoginTest@6a4f787b]" name="landOnAdminHome_TC_5" class="ChannelAutomation.Admin.Test.AdminLoginTest"/>
-        <method signature="AdminLoginTest.landOnAdminHome_TC_9()[pri:9, instance:ChannelAutomation.Admin.Test.AdminLoginTest@6a4f787b]" name="landOnAdminHome_TC_9" class="ChannelAutomation.Admin.Test.AdminLoginTest"/>
-        <method signature="AdminLoginTest.landOnAllotmentMatrix_TC_3()[pri:3, instance:ChannelAutomation.Admin.Test.AdminLoginTest@6a4f787b]" name="landOnAllotmentMatrix_TC_3" class="ChannelAutomation.Admin.Test.AdminLoginTest"/>
-        <method signature="AdminLoginTest.landOnAllotmentMatrix_TC_7()[pri:7, instance:ChannelAutomation.Admin.Test.AdminLoginTest@6a4f787b]" name="landOnAllotmentMatrix_TC_7" class="ChannelAutomation.Admin.Test.AdminLoginTest"/>
-        <method signature="AdminLoginTest.landOnListOfGDSPage_TC_10()[pri:10, instance:ChannelAutomation.Admin.Test.AdminLoginTest@6a4f787b]" name="landOnListOfGDSPage_TC_10" class="ChannelAutomation.Admin.Test.AdminLoginTest"/>
-        <method signature="AdminLoginTest.landOnListOfGDSPage_TC_2()[pri:2, instance:ChannelAutomation.Admin.Test.AdminLoginTest@6a4f787b]" name="landOnListOfGDSPage_TC_2" class="ChannelAutomation.Admin.Test.AdminLoginTest"/>
-        <method signature="AdminLoginTest.landOnListOfGDSPage_TC_6()[pri:6, instance:ChannelAutomation.Admin.Test.AdminLoginTest@6a4f787b]" name="landOnListOfGDSPage_TC_6" class="ChannelAutomation.Admin.Test.AdminLoginTest"/>
-        <method signature="AdminLoginTest.landOnListofChannels_TC_11()[pri:11, instance:ChannelAutomation.Admin.Test.AdminLoginTest@6a4f787b]" name="landOnListofChannels_TC_11" class="ChannelAutomation.Admin.Test.AdminLoginTest"/>
-        <method signature="AdminLoginTest.logoutAdmin_TC_17()[pri:17, instance:ChannelAutomation.Admin.Test.AdminLoginTest@6a4f787b]" name="logoutAdmin_TC_17" class="ChannelAutomation.Admin.Test.AdminLoginTest"/>
-        <method signature="AdminLoginTest.saveAlotments_TC_4()[pri:4, instance:ChannelAutomation.Admin.Test.AdminLoginTest@6a4f787b]" name="saveAlotments_TC_4" class="ChannelAutomation.Admin.Test.AdminLoginTest"/>
-        <method signature="AdminLoginTest.sendRatesOnChannel_TC_14()[pri:14, instance:ChannelAutomation.Admin.Test.AdminLoginTest@6a4f787b]" name="sendRatesOnChannel_TC_14" class="ChannelAutomation.Admin.Test.AdminLoginTest"/>
+        <method signature="AdminLoginTest.AdminLogin_TC_1()[pri:1, instance:ChannelAutomation.Admin.Test.AdminLoginTest@685cb137]" name="AdminLogin_TC_1" class="ChannelAutomation.Admin.Test.AdminLoginTest"/>
+        <method signature="AdminLoginTest.SendRulesonChannel_TC_8()[pri:8, instance:ChannelAutomation.Admin.Test.AdminLoginTest@685cb137]" name="SendRulesonChannel_TC_8" class="ChannelAutomation.Admin.Test.AdminLoginTest"/>
+        <method signature="AdminLoginTest.backToAdminHomePagel_TC_15()[pri:15, instance:ChannelAutomation.Admin.Test.AdminLoginTest@685cb137]" name="backToAdminHomePagel_TC_15" class="ChannelAutomation.Admin.Test.AdminLoginTest"/>
+        <method signature="AdminLoginTest.clickOnChannel_TC_12()[pri:12, instance:ChannelAutomation.Admin.Test.AdminLoginTest@685cb137]" name="clickOnChannel_TC_12" class="ChannelAutomation.Admin.Test.AdminLoginTest"/>
+        <method signature="AdminLoginTest.clickOnEditPackage_TC_13()[pri:13, instance:ChannelAutomation.Admin.Test.AdminLoginTest@685cb137]" name="clickOnEditPackage_TC_13" class="ChannelAutomation.Admin.Test.AdminLoginTest"/>
+        <method signature="AdminLoginTest.landOnAdminHome_TC_16()[pri:16, instance:ChannelAutomation.Admin.Test.AdminLoginTest@685cb137]" name="landOnAdminHome_TC_16" class="ChannelAutomation.Admin.Test.AdminLoginTest"/>
+        <method signature="AdminLoginTest.landOnAdminHome_TC_5()[pri:5, instance:ChannelAutomation.Admin.Test.AdminLoginTest@685cb137]" name="landOnAdminHome_TC_5" class="ChannelAutomation.Admin.Test.AdminLoginTest"/>
+        <method signature="AdminLoginTest.landOnAdminHome_TC_9()[pri:9, instance:ChannelAutomation.Admin.Test.AdminLoginTest@685cb137]" name="landOnAdminHome_TC_9" class="ChannelAutomation.Admin.Test.AdminLoginTest"/>
+        <method signature="AdminLoginTest.landOnAllotmentMatrix_TC_3()[pri:3, instance:ChannelAutomation.Admin.Test.AdminLoginTest@685cb137]" name="landOnAllotmentMatrix_TC_3" class="ChannelAutomation.Admin.Test.AdminLoginTest"/>
+        <method signature="AdminLoginTest.landOnAllotmentMatrix_TC_7()[pri:7, instance:ChannelAutomation.Admin.Test.AdminLoginTest@685cb137]" name="landOnAllotmentMatrix_TC_7" class="ChannelAutomation.Admin.Test.AdminLoginTest"/>
+        <method signature="AdminLoginTest.landOnListOfGDSPage_TC_10()[pri:10, instance:ChannelAutomation.Admin.Test.AdminLoginTest@685cb137]" name="landOnListOfGDSPage_TC_10" class="ChannelAutomation.Admin.Test.AdminLoginTest"/>
+        <method signature="AdminLoginTest.landOnListOfGDSPage_TC_2()[pri:2, instance:ChannelAutomation.Admin.Test.AdminLoginTest@685cb137]" name="landOnListOfGDSPage_TC_2" class="ChannelAutomation.Admin.Test.AdminLoginTest"/>
+        <method signature="AdminLoginTest.landOnListOfGDSPage_TC_6()[pri:6, instance:ChannelAutomation.Admin.Test.AdminLoginTest@685cb137]" name="landOnListOfGDSPage_TC_6" class="ChannelAutomation.Admin.Test.AdminLoginTest"/>
+        <method signature="AdminLoginTest.landOnListofChannels_TC_11()[pri:11, instance:ChannelAutomation.Admin.Test.AdminLoginTest@685cb137]" name="landOnListofChannels_TC_11" class="ChannelAutomation.Admin.Test.AdminLoginTest"/>
+        <method signature="AdminLoginTest.logoutAdmin_TC_17()[pri:17, instance:ChannelAutomation.Admin.Test.AdminLoginTest@685cb137]" name="logoutAdmin_TC_17" class="ChannelAutomation.Admin.Test.AdminLoginTest"/>
+        <method signature="AdminLoginTest.saveAlotments_TC_4()[pri:4, instance:ChannelAutomation.Admin.Test.AdminLoginTest@685cb137]" name="saveAlotments_TC_4" class="ChannelAutomation.Admin.Test.AdminLoginTest"/>
+        <method signature="AdminLoginTest.sendRatesOnChannel_TC_14()[pri:14, instance:ChannelAutomation.Admin.Test.AdminLoginTest@685cb137]" name="sendRatesOnChannel_TC_14" class="ChannelAutomation.Admin.Test.AdminLoginTest"/>
       </group> <!-- ChannelManager -->
       <group name="SendAllotment">
-        <method signature="AdminLoginTest.AdminLogin_TC_1()[pri:1, instance:ChannelAutomation.Admin.Test.AdminLoginTest@6a4f787b]" name="AdminLogin_TC_1" class="ChannelAutomation.Admin.Test.AdminLoginTest"/>
-        <method signature="AdminLoginTest.SendRulesonChannel_TC_8()[pri:8, instance:ChannelAutomation.Admin.Test.AdminLoginTest@6a4f787b]" name="SendRulesonChannel_TC_8" class="ChannelAutomation.Admin.Test.AdminLoginTest"/>
-        <method signature="AdminLoginTest.landOnAdminHome_TC_5()[pri:5, instance:ChannelAutomation.Admin.Test.AdminLoginTest@6a4f787b]" name="landOnAdminHome_TC_5" class="ChannelAutomation.Admin.Test.AdminLoginTest"/>
-        <method signature="AdminLoginTest.landOnAdminHome_TC_9()[pri:9, instance:ChannelAutomation.Admin.Test.AdminLoginTest@6a4f787b]" name="landOnAdminHome_TC_9" class="ChannelAutomation.Admin.Test.AdminLoginTest"/>
-        <method signature="AdminLoginTest.landOnAllotmentMatrix_TC_3()[pri:3, instance:ChannelAutomation.Admin.Test.AdminLoginTest@6a4f787b]" name="landOnAllotmentMatrix_TC_3" class="ChannelAutomation.Admin.Test.AdminLoginTest"/>
-        <method signature="AdminLoginTest.landOnAllotmentMatrix_TC_7()[pri:7, instance:ChannelAutomation.Admin.Test.AdminLoginTest@6a4f787b]" name="landOnAllotmentMatrix_TC_7" class="ChannelAutomation.Admin.Test.AdminLoginTest"/>
-        <method signature="AdminLoginTest.landOnListOfGDSPage_TC_2()[pri:2, instance:ChannelAutomation.Admin.Test.AdminLoginTest@6a4f787b]" name="landOnListOfGDSPage_TC_2" class="ChannelAutomation.Admin.Test.AdminLoginTest"/>
-        <method signature="AdminLoginTest.landOnListOfGDSPage_TC_6()[pri:6, instance:ChannelAutomation.Admin.Test.AdminLoginTest@6a4f787b]" name="landOnListOfGDSPage_TC_6" class="ChannelAutomation.Admin.Test.AdminLoginTest"/>
-        <method signature="AdminLoginTest.saveAlotments_TC_4()[pri:4, instance:ChannelAutomation.Admin.Test.AdminLoginTest@6a4f787b]" name="saveAlotments_TC_4" class="ChannelAutomation.Admin.Test.AdminLoginTest"/>
+        <method signature="AdminLoginTest.AdminLogin_TC_1()[pri:1, instance:ChannelAutomation.Admin.Test.AdminLoginTest@685cb137]" name="AdminLogin_TC_1" class="ChannelAutomation.Admin.Test.AdminLoginTest"/>
+        <method signature="AdminLoginTest.SendRulesonChannel_TC_8()[pri:8, instance:ChannelAutomation.Admin.Test.AdminLoginTest@685cb137]" name="SendRulesonChannel_TC_8" class="ChannelAutomation.Admin.Test.AdminLoginTest"/>
+        <method signature="AdminLoginTest.landOnAdminHome_TC_5()[pri:5, instance:ChannelAutomation.Admin.Test.AdminLoginTest@685cb137]" name="landOnAdminHome_TC_5" class="ChannelAutomation.Admin.Test.AdminLoginTest"/>
+        <method signature="AdminLoginTest.landOnAdminHome_TC_9()[pri:9, instance:ChannelAutomation.Admin.Test.AdminLoginTest@685cb137]" name="landOnAdminHome_TC_9" class="ChannelAutomation.Admin.Test.AdminLoginTest"/>
+        <method signature="AdminLoginTest.landOnAllotmentMatrix_TC_3()[pri:3, instance:ChannelAutomation.Admin.Test.AdminLoginTest@685cb137]" name="landOnAllotmentMatrix_TC_3" class="ChannelAutomation.Admin.Test.AdminLoginTest"/>
+        <method signature="AdminLoginTest.landOnAllotmentMatrix_TC_7()[pri:7, instance:ChannelAutomation.Admin.Test.AdminLoginTest@685cb137]" name="landOnAllotmentMatrix_TC_7" class="ChannelAutomation.Admin.Test.AdminLoginTest"/>
+        <method signature="AdminLoginTest.landOnListOfGDSPage_TC_2()[pri:2, instance:ChannelAutomation.Admin.Test.AdminLoginTest@685cb137]" name="landOnListOfGDSPage_TC_2" class="ChannelAutomation.Admin.Test.AdminLoginTest"/>
+        <method signature="AdminLoginTest.landOnListOfGDSPage_TC_6()[pri:6, instance:ChannelAutomation.Admin.Test.AdminLoginTest@685cb137]" name="landOnListOfGDSPage_TC_6" class="ChannelAutomation.Admin.Test.AdminLoginTest"/>
+        <method signature="AdminLoginTest.saveAlotments_TC_4()[pri:4, instance:ChannelAutomation.Admin.Test.AdminLoginTest@685cb137]" name="saveAlotments_TC_4" class="ChannelAutomation.Admin.Test.AdminLoginTest"/>
       </group> <!-- SendAllotment -->
       <group name="Login">
-        <method signature="AdminLoginTest.AdminLogin_TC_1()[pri:1, instance:ChannelAutomation.Admin.Test.AdminLoginTest@6a4f787b]" name="AdminLogin_TC_1" class="ChannelAutomation.Admin.Test.AdminLoginTest"/>
+        <method signature="AdminLoginTest.AdminLogin_TC_1()[pri:1, instance:ChannelAutomation.Admin.Test.AdminLoginTest@685cb137]" name="AdminLogin_TC_1" class="ChannelAutomation.Admin.Test.AdminLoginTest"/>
       </group> <!-- Login -->
       <group name="Smoke">
-        <method signature="AdminLoginTest.AdminLogin_TC_1()[pri:1, instance:ChannelAutomation.Admin.Test.AdminLoginTest@6a4f787b]" name="AdminLogin_TC_1" class="ChannelAutomation.Admin.Test.AdminLoginTest"/>
-        <method signature="AdminLoginTest.SendRulesonChannel_TC_8()[pri:8, instance:ChannelAutomation.Admin.Test.AdminLoginTest@6a4f787b]" name="SendRulesonChannel_TC_8" class="ChannelAutomation.Admin.Test.AdminLoginTest"/>
-        <method signature="AdminLoginTest.backToAdminHomePagel_TC_15()[pri:15, instance:ChannelAutomation.Admin.Test.AdminLoginTest@6a4f787b]" name="backToAdminHomePagel_TC_15" class="ChannelAutomation.Admin.Test.AdminLoginTest"/>
-        <method signature="AdminLoginTest.clickOnChannel_TC_12()[pri:12, instance:ChannelAutomation.Admin.Test.AdminLoginTest@6a4f787b]" name="clickOnChannel_TC_12" class="ChannelAutomation.Admin.Test.AdminLoginTest"/>
-        <method signature="AdminLoginTest.clickOnEditPackage_TC_13()[pri:13, instance:ChannelAutomation.Admin.Test.AdminLoginTest@6a4f787b]" name="clickOnEditPackage_TC_13" class="ChannelAutomation.Admin.Test.AdminLoginTest"/>
-        <method signature="AdminLoginTest.landOnAdminHome_TC_16()[pri:16, instance:ChannelAutomation.Admin.Test.AdminLoginTest@6a4f787b]" name="landOnAdminHome_TC_16" class="ChannelAutomation.Admin.Test.AdminLoginTest"/>
-        <method signature="AdminLoginTest.landOnAdminHome_TC_5()[pri:5, instance:ChannelAutomation.Admin.Test.AdminLoginTest@6a4f787b]" name="landOnAdminHome_TC_5" class="ChannelAutomation.Admin.Test.AdminLoginTest"/>
-        <method signature="AdminLoginTest.landOnAdminHome_TC_9()[pri:9, instance:ChannelAutomation.Admin.Test.AdminLoginTest@6a4f787b]" name="landOnAdminHome_TC_9" class="ChannelAutomation.Admin.Test.AdminLoginTest"/>
-        <method signature="AdminLoginTest.landOnAllotmentMatrix_TC_3()[pri:3, instance:ChannelAutomation.Admin.Test.AdminLoginTest@6a4f787b]" name="landOnAllotmentMatrix_TC_3" class="ChannelAutomation.Admin.Test.AdminLoginTest"/>
-        <method signature="AdminLoginTest.landOnAllotmentMatrix_TC_7()[pri:7, instance:ChannelAutomation.Admin.Test.AdminLoginTest@6a4f787b]" name="landOnAllotmentMatrix_TC_7" class="ChannelAutomation.Admin.Test.AdminLoginTest"/>
-        <method signature="AdminLoginTest.landOnListOfGDSPage_TC_10()[pri:10, instance:ChannelAutomation.Admin.Test.AdminLoginTest@6a4f787b]" name="landOnListOfGDSPage_TC_10" class="ChannelAutomation.Admin.Test.AdminLoginTest"/>
-        <method signature="AdminLoginTest.landOnListOfGDSPage_TC_2()[pri:2, instance:ChannelAutomation.Admin.Test.AdminLoginTest@6a4f787b]" name="landOnListOfGDSPage_TC_2" class="ChannelAutomation.Admin.Test.AdminLoginTest"/>
-        <method signature="AdminLoginTest.landOnListOfGDSPage_TC_6()[pri:6, instance:ChannelAutomation.Admin.Test.AdminLoginTest@6a4f787b]" name="landOnListOfGDSPage_TC_6" class="ChannelAutomation.Admin.Test.AdminLoginTest"/>
-        <method signature="AdminLoginTest.landOnListofChannels_TC_11()[pri:11, instance:ChannelAutomation.Admin.Test.AdminLoginTest@6a4f787b]" name="landOnListofChannels_TC_11" class="ChannelAutomation.Admin.Test.AdminLoginTest"/>
-        <method signature="AdminLoginTest.logoutAdmin_TC_17()[pri:17, instance:ChannelAutomation.Admin.Test.AdminLoginTest@6a4f787b]" name="logoutAdmin_TC_17" class="ChannelAutomation.Admin.Test.AdminLoginTest"/>
-        <method signature="AdminLoginTest.saveAlotments_TC_4()[pri:4, instance:ChannelAutomation.Admin.Test.AdminLoginTest@6a4f787b]" name="saveAlotments_TC_4" class="ChannelAutomation.Admin.Test.AdminLoginTest"/>
-        <method signature="AdminLoginTest.sendRatesOnChannel_TC_14()[pri:14, instance:ChannelAutomation.Admin.Test.AdminLoginTest@6a4f787b]" name="sendRatesOnChannel_TC_14" class="ChannelAutomation.Admin.Test.AdminLoginTest"/>
+        <method signature="AdminLoginTest.AdminLogin_TC_1()[pri:1, instance:ChannelAutomation.Admin.Test.AdminLoginTest@685cb137]" name="AdminLogin_TC_1" class="ChannelAutomation.Admin.Test.AdminLoginTest"/>
+        <method signature="AdminLoginTest.SendRulesonChannel_TC_8()[pri:8, instance:ChannelAutomation.Admin.Test.AdminLoginTest@685cb137]" name="SendRulesonChannel_TC_8" class="ChannelAutomation.Admin.Test.AdminLoginTest"/>
+        <method signature="AdminLoginTest.backToAdminHomePagel_TC_15()[pri:15, instance:ChannelAutomation.Admin.Test.AdminLoginTest@685cb137]" name="backToAdminHomePagel_TC_15" class="ChannelAutomation.Admin.Test.AdminLoginTest"/>
+        <method signature="AdminLoginTest.clickOnChannel_TC_12()[pri:12, instance:ChannelAutomation.Admin.Test.AdminLoginTest@685cb137]" name="clickOnChannel_TC_12" class="ChannelAutomation.Admin.Test.AdminLoginTest"/>
+        <method signature="AdminLoginTest.clickOnEditPackage_TC_13()[pri:13, instance:ChannelAutomation.Admin.Test.AdminLoginTest@685cb137]" name="clickOnEditPackage_TC_13" class="ChannelAutomation.Admin.Test.AdminLoginTest"/>
+        <method signature="AdminLoginTest.landOnAdminHome_TC_16()[pri:16, instance:ChannelAutomation.Admin.Test.AdminLoginTest@685cb137]" name="landOnAdminHome_TC_16" class="ChannelAutomation.Admin.Test.AdminLoginTest"/>
+        <method signature="AdminLoginTest.landOnAdminHome_TC_5()[pri:5, instance:ChannelAutomation.Admin.Test.AdminLoginTest@685cb137]" name="landOnAdminHome_TC_5" class="ChannelAutomation.Admin.Test.AdminLoginTest"/>
+        <method signature="AdminLoginTest.landOnAdminHome_TC_9()[pri:9, instance:ChannelAutomation.Admin.Test.AdminLoginTest@685cb137]" name="landOnAdminHome_TC_9" class="ChannelAutomation.Admin.Test.AdminLoginTest"/>
+        <method signature="AdminLoginTest.landOnAllotmentMatrix_TC_3()[pri:3, instance:ChannelAutomation.Admin.Test.AdminLoginTest@685cb137]" name="landOnAllotmentMatrix_TC_3" class="ChannelAutomation.Admin.Test.AdminLoginTest"/>
+        <method signature="AdminLoginTest.landOnAllotmentMatrix_TC_7()[pri:7, instance:ChannelAutomation.Admin.Test.AdminLoginTest@685cb137]" name="landOnAllotmentMatrix_TC_7" class="ChannelAutomation.Admin.Test.AdminLoginTest"/>
+        <method signature="AdminLoginTest.landOnListOfGDSPage_TC_10()[pri:10, instance:ChannelAutomation.Admin.Test.AdminLoginTest@685cb137]" name="landOnListOfGDSPage_TC_10" class="ChannelAutomation.Admin.Test.AdminLoginTest"/>
+        <method signature="AdminLoginTest.landOnListOfGDSPage_TC_2()[pri:2, instance:ChannelAutomation.Admin.Test.AdminLoginTest@685cb137]" name="landOnListOfGDSPage_TC_2" class="ChannelAutomation.Admin.Test.AdminLoginTest"/>
+        <method signature="AdminLoginTest.landOnListOfGDSPage_TC_6()[pri:6, instance:ChannelAutomation.Admin.Test.AdminLoginTest@685cb137]" name="landOnListOfGDSPage_TC_6" class="ChannelAutomation.Admin.Test.AdminLoginTest"/>
+        <method signature="AdminLoginTest.landOnListofChannels_TC_11()[pri:11, instance:ChannelAutomation.Admin.Test.AdminLoginTest@685cb137]" name="landOnListofChannels_TC_11" class="ChannelAutomation.Admin.Test.AdminLoginTest"/>
+        <method signature="AdminLoginTest.logoutAdmin_TC_17()[pri:17, instance:ChannelAutomation.Admin.Test.AdminLoginTest@685cb137]" name="logoutAdmin_TC_17" class="ChannelAutomation.Admin.Test.AdminLoginTest"/>
+        <method signature="AdminLoginTest.saveAlotments_TC_4()[pri:4, instance:ChannelAutomation.Admin.Test.AdminLoginTest@685cb137]" name="saveAlotments_TC_4" class="ChannelAutomation.Admin.Test.AdminLoginTest"/>
+        <method signature="AdminLoginTest.sendRatesOnChannel_TC_14()[pri:14, instance:ChannelAutomation.Admin.Test.AdminLoginTest@685cb137]" name="sendRatesOnChannel_TC_14" class="ChannelAutomation.Admin.Test.AdminLoginTest"/>
       </group> <!-- Smoke -->
       <group name="SendRate">
-        <method signature="AdminLoginTest.AdminLogin_TC_1()[pri:1, instance:ChannelAutomation.Admin.Test.AdminLoginTest@6a4f787b]" name="AdminLogin_TC_1" class="ChannelAutomation.Admin.Test.AdminLoginTest"/>
-        <method signature="AdminLoginTest.backToAdminHomePagel_TC_15()[pri:15, instance:ChannelAutomation.Admin.Test.AdminLoginTest@6a4f787b]" name="backToAdminHomePagel_TC_15" class="ChannelAutomation.Admin.Test.AdminLoginTest"/>
-        <method signature="AdminLoginTest.clickOnChannel_TC_12()[pri:12, instance:ChannelAutomation.Admin.Test.AdminLoginTest@6a4f787b]" name="clickOnChannel_TC_12" class="ChannelAutomation.Admin.Test.AdminLoginTest"/>
-        <method signature="AdminLoginTest.clickOnEditPackage_TC_13()[pri:13, instance:ChannelAutomation.Admin.Test.AdminLoginTest@6a4f787b]" name="clickOnEditPackage_TC_13" class="ChannelAutomation.Admin.Test.AdminLoginTest"/>
-        <method signature="AdminLoginTest.landOnAdminHome_TC_16()[pri:16, instance:ChannelAutomation.Admin.Test.AdminLoginTest@6a4f787b]" name="landOnAdminHome_TC_16" class="ChannelAutomation.Admin.Test.AdminLoginTest"/>
-        <method signature="AdminLoginTest.landOnListOfGDSPage_TC_10()[pri:10, instance:ChannelAutomation.Admin.Test.AdminLoginTest@6a4f787b]" name="landOnListOfGDSPage_TC_10" class="ChannelAutomation.Admin.Test.AdminLoginTest"/>
-        <method signature="AdminLoginTest.landOnListofChannels_TC_11()[pri:11, instance:ChannelAutomation.Admin.Test.AdminLoginTest@6a4f787b]" name="landOnListofChannels_TC_11" class="ChannelAutomation.Admin.Test.AdminLoginTest"/>
-        <method signature="AdminLoginTest.logoutAdmin_TC_17()[pri:17, instance:ChannelAutomation.Admin.Test.AdminLoginTest@6a4f787b]" name="logoutAdmin_TC_17" class="ChannelAutomation.Admin.Test.AdminLoginTest"/>
-        <method signature="AdminLoginTest.sendRatesOnChannel_TC_14()[pri:14, instance:ChannelAutomation.Admin.Test.AdminLoginTest@6a4f787b]" name="sendRatesOnChannel_TC_14" class="ChannelAutomation.Admin.Test.AdminLoginTest"/>
+        <method signature="AdminLoginTest.AdminLogin_TC_1()[pri:1, instance:ChannelAutomation.Admin.Test.AdminLoginTest@685cb137]" name="AdminLogin_TC_1" class="ChannelAutomation.Admin.Test.AdminLoginTest"/>
+        <method signature="AdminLoginTest.backToAdminHomePagel_TC_15()[pri:15, instance:ChannelAutomation.Admin.Test.AdminLoginTest@685cb137]" name="backToAdminHomePagel_TC_15" class="ChannelAutomation.Admin.Test.AdminLoginTest"/>
+        <method signature="AdminLoginTest.clickOnChannel_TC_12()[pri:12, instance:ChannelAutomation.Admin.Test.AdminLoginTest@685cb137]" name="clickOnChannel_TC_12" class="ChannelAutomation.Admin.Test.AdminLoginTest"/>
+        <method signature="AdminLoginTest.clickOnEditPackage_TC_13()[pri:13, instance:ChannelAutomation.Admin.Test.AdminLoginTest@685cb137]" name="clickOnEditPackage_TC_13" class="ChannelAutomation.Admin.Test.AdminLoginTest"/>
+        <method signature="AdminLoginTest.landOnAdminHome_TC_16()[pri:16, instance:ChannelAutomation.Admin.Test.AdminLoginTest@685cb137]" name="landOnAdminHome_TC_16" class="ChannelAutomation.Admin.Test.AdminLoginTest"/>
+        <method signature="AdminLoginTest.landOnListOfGDSPage_TC_10()[pri:10, instance:ChannelAutomation.Admin.Test.AdminLoginTest@685cb137]" name="landOnListOfGDSPage_TC_10" class="ChannelAutomation.Admin.Test.AdminLoginTest"/>
+        <method signature="AdminLoginTest.landOnListofChannels_TC_11()[pri:11, instance:ChannelAutomation.Admin.Test.AdminLoginTest@685cb137]" name="landOnListofChannels_TC_11" class="ChannelAutomation.Admin.Test.AdminLoginTest"/>
+        <method signature="AdminLoginTest.logoutAdmin_TC_17()[pri:17, instance:ChannelAutomation.Admin.Test.AdminLoginTest@685cb137]" name="logoutAdmin_TC_17" class="ChannelAutomation.Admin.Test.AdminLoginTest"/>
+        <method signature="AdminLoginTest.sendRatesOnChannel_TC_14()[pri:14, instance:ChannelAutomation.Admin.Test.AdminLoginTest@685cb137]" name="sendRatesOnChannel_TC_14" class="ChannelAutomation.Admin.Test.AdminLoginTest"/>
       </group> <!-- SendRate -->
     </groups>
-    <test name="ChannelManagerTest" duration-ms="665527" started-at="2017-08-28T13:11:39Z" finished-at="2017-08-28T13:22:45Z">
+    <test name="ChannelManagerTest" duration-ms="423256" started-at="2017-09-05T07:34:09Z" finished-at="2017-09-05T07:41:12Z">
       <class name="ChannelAutomation.Admin.Test.AdminLoginTest">
-        <test-method status="PASS" signature="AdminLogin_TC_1()[pri:1, instance:ChannelAutomation.Admin.Test.AdminLoginTest@6a4f787b]" name="AdminLogin_TC_1" duration-ms="38591" started-at="2017-08-28T18:41:39Z" finished-at="2017-08-28T18:42:18Z">
+        <test-method status="PASS" signature="AdminLogin_TC_1()[pri:1, instance:ChannelAutomation.Admin.Test.AdminLoginTest@685cb137]" name="AdminLogin_TC_1" duration-ms="25844" started-at="2017-09-05T13:04:09Z" finished-at="2017-09-05T13:04:35Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- AdminLogin_TC_1 -->
-        <test-method status="PASS" signature="landOnListOfGDSPage_TC_2()[pri:2, instance:ChannelAutomation.Admin.Test.AdminLoginTest@6a4f787b]" name="landOnListOfGDSPage_TC_2" duration-ms="2546" started-at="2017-08-28T18:42:18Z" finished-at="2017-08-28T18:42:20Z">
+        <test-method status="PASS" signature="landOnListOfGDSPage_TC_2()[pri:2, instance:ChannelAutomation.Admin.Test.AdminLoginTest@685cb137]" name="landOnListOfGDSPage_TC_2" duration-ms="2622" started-at="2017-09-05T13:04:35Z" finished-at="2017-09-05T13:04:37Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- landOnListOfGDSPage_TC_2 -->
-        <test-method status="PASS" signature="landOnAllotmentMatrix_TC_3()[pri:3, instance:ChannelAutomation.Admin.Test.AdminLoginTest@6a4f787b]" name="landOnAllotmentMatrix_TC_3" duration-ms="6504" started-at="2017-08-28T18:42:20Z" finished-at="2017-08-28T18:42:27Z">
+        <test-method status="PASS" signature="landOnAllotmentMatrix_TC_3()[pri:3, instance:ChannelAutomation.Admin.Test.AdminLoginTest@685cb137]" name="landOnAllotmentMatrix_TC_3" duration-ms="6342" started-at="2017-09-05T13:04:37Z" finished-at="2017-09-05T13:04:44Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- landOnAllotmentMatrix_TC_3 -->
-        <test-method status="PASS" signature="saveAlotments_TC_4()[pri:4, instance:ChannelAutomation.Admin.Test.AdminLoginTest@6a4f787b]" name="saveAlotments_TC_4" duration-ms="15811" started-at="2017-08-28T18:42:27Z" finished-at="2017-08-28T18:42:43Z">
+        <test-method status="PASS" signature="saveAlotments_TC_4()[pri:4, instance:ChannelAutomation.Admin.Test.AdminLoginTest@685cb137]" name="saveAlotments_TC_4" duration-ms="40969" started-at="2017-09-05T13:04:44Z" finished-at="2017-09-05T13:05:25Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- saveAlotments_TC_4 -->
-        <test-method status="PASS" signature="landOnAdminHome_TC_5()[pri:5, instance:ChannelAutomation.Admin.Test.AdminLoginTest@6a4f787b]" name="landOnAdminHome_TC_5" duration-ms="2107" started-at="2017-08-28T18:42:43Z" finished-at="2017-08-28T18:42:45Z">
+        <test-method status="PASS" signature="landOnAdminHome_TC_5()[pri:5, instance:ChannelAutomation.Admin.Test.AdminLoginTest@685cb137]" name="landOnAdminHome_TC_5" duration-ms="2051" started-at="2017-09-05T13:05:25Z" finished-at="2017-09-05T13:05:27Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- landOnAdminHome_TC_5 -->
-        <test-method status="PASS" signature="landOnListOfGDSPage_TC_6()[pri:6, instance:ChannelAutomation.Admin.Test.AdminLoginTest@6a4f787b]" name="landOnListOfGDSPage_TC_6" duration-ms="2664" started-at="2017-08-28T18:42:45Z" finished-at="2017-08-28T18:42:48Z">
+        <test-method status="PASS" signature="landOnListOfGDSPage_TC_6()[pri:6, instance:ChannelAutomation.Admin.Test.AdminLoginTest@685cb137]" name="landOnListOfGDSPage_TC_6" duration-ms="2549" started-at="2017-09-05T13:05:27Z" finished-at="2017-09-05T13:05:29Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- landOnListOfGDSPage_TC_6 -->
-        <test-method status="PASS" signature="landOnAllotmentMatrix_TC_7()[pri:7, instance:ChannelAutomation.Admin.Test.AdminLoginTest@6a4f787b]" name="landOnAllotmentMatrix_TC_7" duration-ms="6051" started-at="2017-08-28T18:42:48Z" finished-at="2017-08-28T18:42:54Z">
+        <test-method status="PASS" signature="landOnAllotmentMatrix_TC_7()[pri:7, instance:ChannelAutomation.Admin.Test.AdminLoginTest@685cb137]" name="landOnAllotmentMatrix_TC_7" duration-ms="7024" started-at="2017-09-05T13:05:29Z" finished-at="2017-09-05T13:05:36Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- landOnAllotmentMatrix_TC_7 -->
-        <test-method status="PASS" signature="SendRulesonChannel_TC_8()[pri:8, instance:ChannelAutomation.Admin.Test.AdminLoginTest@6a4f787b]" name="SendRulesonChannel_TC_8" duration-ms="371185" started-at="2017-08-28T18:42:54Z" finished-at="2017-08-28T18:49:05Z">
+        <test-method status="PASS" signature="SendRulesonChannel_TC_8()[pri:8, instance:ChannelAutomation.Admin.Test.AdminLoginTest@685cb137]" name="SendRulesonChannel_TC_8" duration-ms="122508" started-at="2017-09-05T13:05:36Z" finished-at="2017-09-05T13:07:39Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SendRulesonChannel_TC_8 -->
-        <test-method status="PASS" signature="landOnAdminHome_TC_9()[pri:9, instance:ChannelAutomation.Admin.Test.AdminLoginTest@6a4f787b]" name="landOnAdminHome_TC_9" duration-ms="3118" started-at="2017-08-28T18:49:05Z" finished-at="2017-08-28T18:49:08Z">
+        <test-method status="PASS" signature="landOnAdminHome_TC_9()[pri:9, instance:ChannelAutomation.Admin.Test.AdminLoginTest@685cb137]" name="landOnAdminHome_TC_9" duration-ms="1797" started-at="2017-09-05T13:07:39Z" finished-at="2017-09-05T13:07:41Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- landOnAdminHome_TC_9 -->
-        <test-method status="PASS" signature="landOnListOfGDSPage_TC_10()[pri:10, instance:ChannelAutomation.Admin.Test.AdminLoginTest@6a4f787b]" name="landOnListOfGDSPage_TC_10" duration-ms="4539" started-at="2017-08-28T18:49:08Z" finished-at="2017-08-28T18:49:12Z">
+        <test-method status="PASS" signature="landOnListOfGDSPage_TC_10()[pri:10, instance:ChannelAutomation.Admin.Test.AdminLoginTest@685cb137]" name="landOnListOfGDSPage_TC_10" duration-ms="3580" started-at="2017-09-05T13:07:41Z" finished-at="2017-09-05T13:07:44Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- landOnListOfGDSPage_TC_10 -->
-        <test-method status="PASS" signature="landOnListofChannels_TC_11()[pri:11, instance:ChannelAutomation.Admin.Test.AdminLoginTest@6a4f787b]" name="landOnListofChannels_TC_11" duration-ms="1984" started-at="2017-08-28T18:49:12Z" finished-at="2017-08-28T18:49:14Z">
+        <test-method status="PASS" signature="landOnListofChannels_TC_11()[pri:11, instance:ChannelAutomation.Admin.Test.AdminLoginTest@685cb137]" name="landOnListofChannels_TC_11" duration-ms="1896" started-at="2017-09-05T13:07:44Z" finished-at="2017-09-05T13:07:46Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- landOnListofChannels_TC_11 -->
-        <test-method status="PASS" signature="clickOnChannel_TC_12()[pri:12, instance:ChannelAutomation.Admin.Test.AdminLoginTest@6a4f787b]" name="clickOnChannel_TC_12" duration-ms="2735" started-at="2017-08-28T18:49:14Z" finished-at="2017-08-28T18:49:17Z">
+        <test-method status="PASS" signature="clickOnChannel_TC_12()[pri:12, instance:ChannelAutomation.Admin.Test.AdminLoginTest@685cb137]" name="clickOnChannel_TC_12" duration-ms="2735" started-at="2017-09-05T13:07:46Z" finished-at="2017-09-05T13:07:49Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- clickOnChannel_TC_12 -->
-        <test-method status="PASS" signature="clickOnEditPackage_TC_13()[pri:13, instance:ChannelAutomation.Admin.Test.AdminLoginTest@6a4f787b]" name="clickOnEditPackage_TC_13" duration-ms="3716" started-at="2017-08-28T18:49:17Z" finished-at="2017-08-28T18:49:21Z">
+        <test-method status="PASS" signature="clickOnEditPackage_TC_13()[pri:13, instance:ChannelAutomation.Admin.Test.AdminLoginTest@685cb137]" name="clickOnEditPackage_TC_13" duration-ms="3763" started-at="2017-09-05T13:07:49Z" finished-at="2017-09-05T13:07:53Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- clickOnEditPackage_TC_13 -->
-        <test-method status="PASS" signature="sendRatesOnChannel_TC_14()[pri:14, instance:ChannelAutomation.Admin.Test.AdminLoginTest@6a4f787b]" name="sendRatesOnChannel_TC_14" duration-ms="199220" started-at="2017-08-28T18:49:21Z" finished-at="2017-08-28T18:52:40Z">
+        <test-method status="PASS" signature="sendRatesOnChannel_TC_14()[pri:14, instance:ChannelAutomation.Admin.Test.AdminLoginTest@685cb137]" name="sendRatesOnChannel_TC_14" duration-ms="195238" started-at="2017-09-05T13:07:53Z" finished-at="2017-09-05T13:11:08Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- sendRatesOnChannel_TC_14 -->
-        <test-method status="PASS" signature="backToAdminHomePagel_TC_15()[pri:15, instance:ChannelAutomation.Admin.Test.AdminLoginTest@6a4f787b]" name="backToAdminHomePagel_TC_15" duration-ms="79" started-at="2017-08-28T18:52:40Z" finished-at="2017-08-28T18:52:40Z">
+        <test-method status="PASS" signature="backToAdminHomePagel_TC_15()[pri:15, instance:ChannelAutomation.Admin.Test.AdminLoginTest@685cb137]" name="backToAdminHomePagel_TC_15" duration-ms="156" started-at="2017-09-05T13:11:08Z" finished-at="2017-09-05T13:11:08Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- backToAdminHomePagel_TC_15 -->
-        <test-method status="PASS" signature="landOnAdminHome_TC_16()[pri:16, instance:ChannelAutomation.Admin.Test.AdminLoginTest@6a4f787b]" name="landOnAdminHome_TC_16" duration-ms="2538" started-at="2017-08-28T18:52:40Z" finished-at="2017-08-28T18:52:43Z">
+        <test-method status="PASS" signature="landOnAdminHome_TC_16()[pri:16, instance:ChannelAutomation.Admin.Test.AdminLoginTest@685cb137]" name="landOnAdminHome_TC_16" duration-ms="1922" started-at="2017-09-05T13:11:08Z" finished-at="2017-09-05T13:11:10Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- landOnAdminHome_TC_16 -->
-        <test-method status="PASS" signature="logoutAdmin_TC_17()[pri:17, instance:ChannelAutomation.Admin.Test.AdminLoginTest@6a4f787b]" name="logoutAdmin_TC_17" duration-ms="2085" started-at="2017-08-28T18:52:43Z" finished-at="2017-08-28T18:52:45Z">
+        <test-method status="PASS" signature="logoutAdmin_TC_17()[pri:17, instance:ChannelAutomation.Admin.Test.AdminLoginTest@685cb137]" name="logoutAdmin_TC_17" duration-ms="2219" started-at="2017-09-05T13:11:10Z" finished-at="2017-09-05T13:11:12Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logoutAdmin_TC_17 -->
