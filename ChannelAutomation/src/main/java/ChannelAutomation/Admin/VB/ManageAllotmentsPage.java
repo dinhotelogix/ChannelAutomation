@@ -70,8 +70,11 @@ public class ManageAllotmentsPage
 	@FindBy(xpath="//div[@id='dvAllotmentMatrix']//tr[4]//table[6]/tbody/tr/td")
 	public static List<WebElement> allotmentValuesSTDRoomType;
 	
+	@FindBy(xpath="//img[@id='imgRefreshAllotData']")
+	public static WebElement refreshAllotment;
 	
-	public static String AllotmentValue;
+	
+	public static String OldAllotmentValue;
 	
 	//Verify  Allotment Matrix Page
 	public void verifyManageAllotmentsPage()
@@ -87,6 +90,7 @@ public class ManageAllotmentsPage
 			}
 		} catch (Exception e) {
 			System.out.println(e.getMessage());
+			Assert.assertTrue(false);
 		}
 	}
 	
@@ -397,13 +401,14 @@ public class ManageAllotmentsPage
 				if(date.contains(dat))
 				{
 					String roomType = Constants.PushResInRoomType;
-					if(roomType=="11913")
+					if(roomType==Constants.RoomCode1)
 					{
-						AllotmentValue = allotmentValuesSRMRoomType.get(i).getText().trim();
-						System.out.println("Allotment:"+AllotmentValue);
+						OldAllotmentValue = allotmentValuesSRMRoomType.get(i).getText().trim();
+						System.out.println("Allotment:"+OldAllotmentValue);
+						break;
 					}else {
-						AllotmentValue = allotmentValuesSTDRoomType.get(i).getText().trim();
-						System.out.println("Allotment:"+AllotmentValue);
+						OldAllotmentValue = allotmentValuesSTDRoomType.get(i).getText().trim();
+						System.out.println("Allotment:"+OldAllotmentValue);
 					}
 				}
 			}
@@ -413,11 +418,18 @@ public class ManageAllotmentsPage
 	}
 	
 	//Verify Allotment Update
-	public void verifyAllotmentUpdate(String oldAllotment)
+	public void verifyAllotmentUpdate()
 	{
 		try {
-			int actAllotment = Integer.parseInt(AllotmentValue);
-			int expAllotment = Integer.parseInt(oldAllotment);
+			int actAllotment = Integer.parseInt(OldAllotmentValue);
+			//int expAllotment = Integer.parseInt(oldAllotment);
+			
+			refreshAllotment.click();
+			Thread.sleep(5500);
+			getAllotmentForADay();
+			
+			int expAllotment = Integer.parseInt(OldAllotmentValue);
+			
 			if(expAllotment==actAllotment-1)
 			{
 				Assert.assertTrue(true);
@@ -432,5 +444,6 @@ public class ManageAllotmentsPage
 			Assert.assertTrue(false);
 		}
 	}
+	
 	
 }

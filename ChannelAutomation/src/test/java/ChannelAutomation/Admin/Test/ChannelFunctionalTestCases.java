@@ -14,7 +14,11 @@ import ChannelAutomation.Admin.VB.ManageAllotmentsPage;
 import ChannelAutomation.Frontdesk.Login.FrontdeskCashCounter;
 import ChannelAutomation.Frontdesk.Login.FrontdeskContinueTrialPage;
 import ChannelAutomation.Frontdesk.Login.FrontdeskLoginPage;
+import ChannelAutomation.Frontdesk.TapeChart.CreateReservation;
+import ChannelAutomation.Frontdesk.TapeChart.EditView_Reservation;
+import ChannelAutomation.Frontdesk.TapeChart.FrontdeskGrid;
 import ChannelAutomation.Frontdesk.TapeChart.FrontdeskHomePage;
+import ChannelAutomation.Frontdesk.TapeChart.PaymentPage;
 import ChannelAutomation.Frontdesk.TapeChart.ReservationSearchResultPage;
 import ChannelAutomation.Frontdesk.TapeChart.ReservationViewDetailsPage;
 import ChannelAutomation.Reservations.BusyRoomsPushReservation;
@@ -64,7 +68,10 @@ public class ChannelFunctionalTestCases
 	@Test(priority=2, groups = {"testDebug" })
 	public void checkAllotmentUpdateForSingleReservation()
 	{
+		try {
+				
 		AdminHomePage AHP = new AdminHomePage();
+		
 		ListOfOtherGDSPage LOGP = AHP.landOnOtherGDSPackage();
 		LOGP.verifyListOfOtherGDSPage();
 		ManageAllotmentsPage MAP =LOGP.clickManageAllotments();
@@ -76,7 +83,29 @@ public class ChannelFunctionalTestCases
 		FrontdeskContinueTrialPage FCT =BP.verifyPage();
 		FrontdeskCashCounter FCC = FCT.clickContinueWithTrial();
 		FrontdeskHomePage FHP =FCC.selectCounter();
-		FHP.clickCancel();
+		FrontdeskGrid FG = FHP.clickCancel();
+		CreateReservation CR = FG.selectCurrentDateInCalender();
+		EditView_Reservation EVR = CR.createSingleNightRes();
+		PaymentPage PP = EVR.click_PaymentBtn();
+		PP.getReservationID();
+		GMethods.switchToWindow(AdminHomePage.AdminWindowID);
+		
+		//MAP.verifyManageAllotmentsPage();
+		
+		MAP.verifyAllotmentUpdate();
+		
+		} catch (Exception e) {
+			e.getMessage();
+			Assert.assertTrue(false);
+		}
+		
+		
+	}
+	
+	@Test(priority=3, groups = {"testDebug" })
+	public void CancelResAndCheckAllotment()
+	{
+		
 	}
 	
 		//Get Allotment for a particular day
@@ -236,13 +265,13 @@ public class ChannelFunctionalTestCases
 				//Get Allotment
 				try {
 					//Get Previous Allotment
-					String oldAllotmentValue = ManageAllotmentsPage.AllotmentValue;
+					String oldAllotmentValue = ManageAllotmentsPage.OldAllotmentValue;
 					
 					ManageAllotmentsPage MAP = new ManageAllotmentsPage();
 					System.out.println("");
 					MAP.getAllotmentForADay();
 					
-					MAP.verifyAllotmentUpdate(oldAllotmentValue);
+					//MAP.verifyAllotmentUpdate(oldAllotmentValue);
 					
 				} catch (Exception e) {
 					System.out.println("Issue in Getting Allotment Value "+e.getMessage());

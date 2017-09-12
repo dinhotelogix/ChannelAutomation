@@ -27,7 +27,7 @@ public class FrontdeskHomePage
 	public static WebElement frontdeskLogout;
 		
 	//Click Cancel On Perform Night Audit window
-	public void clickCancel()
+	public FrontdeskGrid clickCancel()
 	{
 		try {
 			GMethods.jsClick(cancel);
@@ -39,6 +39,9 @@ public class FrontdeskHomePage
 			System.out.println("Issue in Click Cancel on Perform Night Audit window"+e.getMessage());
 			Assert.assertTrue(false);
 		}
+		
+		FrontdeskGrid FG = PageFactory.initElements(GMethods.driver, FrontdeskGrid.class);
+		return FG;
 		
 	}
 	

@@ -3,9 +3,6 @@
 
 <suite name="ChannelManagerTest">
    <test name="ChannelManagerTest">
-
-	
-   
    <groups>
       <run>
     
@@ -18,7 +15,7 @@
         
     <!-- <include name="Smoke" /> -->
 
-		   	 	<include name="Smoke" />   
+		   	 	<include name="testDebug" />   
      
       </run>
    </groups>
@@ -29,7 +26,5 @@
       	
     
    </classes>
-   
-   
-   </test>
+  </test>
 </suite>

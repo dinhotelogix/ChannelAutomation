@@ -20,9 +20,10 @@ public class Constants
 	//public static final String ServerURL ="http://livestable.hx.local/admine/login";
 	public static final String Browser = "FF";
 	
-	public static final String Server = "https://staygrid.com/";
-	//public static final String Server ="http://hotelogix.stayezee.com/";
+	//public static final String Server = "https://staygrid.com/";
+	//public static final String Server ="http://upgraded.stayez.com/";
 	//public static final String Server ="http://hotelogix.net/";
+	public static final String Server ="http://upgraded.stayez.com/";
 	
 	public static final String Console_Admin = "admine";
 	public static final String Console_Frontdesk = "frontdesk";

@@ -270,7 +270,6 @@ public class GMethods
 		 * @param tagName 
 		 * @param addDays : How many Days needs to be added
 		 */
-		
 		public static void selectDateInCalender(String calID,int CurrMonth, int dateToSelect, WebElement nextPrevArrow)
 		{
 			try {
@@ -445,11 +444,11 @@ public class GMethods
 		 * @param eleDragFrom :Xpath of Check In Date on Tapechart
 		 * @param nights : No of Nights we want to create booking for
 		 */
-		public static void dragDropOnFrontdeskTapechart(String eleDragFrom , int nights)
+		public static void dragDropOnFrontdeskTapechart(WebElement eleDragFrom , int nights)
 		{
 			try {
-				WebElement eleRes = driver.findElement(By.xpath(eleDragFrom));
-				Dimension dimOfOneCell = eleRes.getSize();
+				//WebElement eleRes = driver.findElement(By.xpath(eleDragFrom));
+				Dimension dimOfOneCell = eleDragFrom.getSize();
 				
 				int x1 = dimOfOneCell.width;
 				int x = (int) ((x1*0.75)*nights);
@@ -457,7 +456,7 @@ public class GMethods
 				
 				
 				Actions act = new Actions(driver);
-				act.dragAndDropBy(eleRes, x, y).click().perform();;
+				act.dragAndDropBy(eleDragFrom, x, y).click().perform();;
 			} catch (Exception e) {
 				System.out.println("Issue in Drag and Drop on Frontdesk:"+e.getMessage());
 			}
