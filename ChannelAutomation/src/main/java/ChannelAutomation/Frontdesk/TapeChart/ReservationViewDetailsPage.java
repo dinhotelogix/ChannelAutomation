@@ -11,10 +11,14 @@ import Configurations.GMethods;
 public class ReservationViewDetailsPage 
 {
 	@FindBy(xpath="//tr[@class='gtoolbar1']/td//tbody/tr/td[3]/span")
-	public static WebElement WebRefID;
+	public WebElement WebRefID;
 	
 	@FindBy(id="btnmainSRClose")
-	public static WebElement btnCloseRes;
+	public WebElement btnCloseRes;
+	
+	@FindBy(xpath="//input[@value='Enable Editing']")
+	public WebElement enableEditing;
+	
 	//Get Web Ref ID and Match with the Reservation Pushed.
 	public FrontdeskHomePage verifyReservation()
 	{
@@ -31,5 +35,16 @@ public class ReservationViewDetailsPage
 		}
 		FrontdeskHomePage FHP = PageFactory.initElements(GMethods.driver, FrontdeskHomePage.class);
 		return FHP;
+	}
+	
+	public EditView_Reservation clickEnableEditing()
+	{
+		try {
+			enableEditing.click();
+		} catch (Exception e) {
+			System.out.println("Issue in Click Enable Editing"+e.getMessage());
+		}
+		EditView_Reservation EVR = PageFactory.initElements(GMethods.driver, EditView_Reservation.class);
+		return EVR;
 	}
 }

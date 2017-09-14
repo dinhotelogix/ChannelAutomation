@@ -20,6 +20,7 @@ import ChannelAutomation.Frontdesk.TapeChart.FrontdeskGrid;
 import ChannelAutomation.Frontdesk.TapeChart.FrontdeskHomePage;
 import ChannelAutomation.Frontdesk.TapeChart.PaymentPage;
 import ChannelAutomation.Frontdesk.TapeChart.ReservationSearchResultPage;
+
 import ChannelAutomation.Frontdesk.TapeChart.ReservationViewDetailsPage;
 import ChannelAutomation.Reservations.BusyRoomsPushReservation;
 import Configurations.Constants;
@@ -102,9 +103,43 @@ public class ChannelFunctionalTestCases
 		
 	}
 	
+	//This test case will cancel the same reservation create in TestCase "checkAllotmentUpdateForSingleReservation" from Frontdesk
+	//and then will go to Admin Console and will check allotment update.
 	@Test(priority=3, groups = {"testDebug" })
 	public void CancelResAndCheckAllotment()
 	{
+		try {
+			GMethods.switchToWindow(AdminHomePage.FrontdeskWindowID);
+			
+			FrontdeskHomePage FHP = new FrontdeskHomePage();
+			ReservationSearchResultPage RSRP = FHP.searchResOnFrontdeskToCancel();
+			ReservationViewDetailsPage RVP = RSRP.openReservation();
+			EditView_Reservation EVRP = RVP.clickEnableEditing();
+			PaymentPage PP =EVRP.cancel_reservation();
+			PP.closeReservation();
+			
+			GMethods.switchToWindow(AdminHomePage.AdminWindowID);
+			
+			ManageAllotmentsPage MAP = new ManageAllotmentsPage();
+			MAP.verifyAllotmentUpdateAfterCancel();
+			Assert.assertTrue(true);
+			
+		} catch (Exception e) {
+			System.out.println("Issue In Cancel res and Verify Allotment"+e.getMessage());
+			Assert.assertTrue(false);
+		}
+	}
+	
+	//This test case will Create a DNR on Frontdesk and then will go to Admin Console and will check allotment update.
+	@Test(priority=3, groups = {"testDebug" })
+	public void CreateDNRAndCheckAllotment()
+	{
+		try {
+			GMethods.switchToWindow(AdminHomePage.FrontdeskWindowID);
+			
+		} catch (Exception e) {
+			// TODO: handle exception
+		}
 		
 	}
 	

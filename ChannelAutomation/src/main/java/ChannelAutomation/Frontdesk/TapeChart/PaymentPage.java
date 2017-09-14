@@ -14,7 +14,8 @@ public class PaymentPage
 	@FindBy(id="BtnPaymentsClose")
 	public static WebElement btn_Close;
 	
-	String reservationID;
+	
+	static String reservationID;
 	
 	public FrontdeskGrid getReservationID()
 	{
@@ -30,6 +31,16 @@ public class PaymentPage
 		}
 		FrontdeskGrid FDG = PageFactory.initElements(GMethods.driver, FrontdeskGrid.class);
 		return FDG;
+	}
+	public FrontdeskGrid closeReservation()
+	{
+		try {
+			btn_Close.click();
+		} catch (Exception e) {
+			System.out.println("Issue in Close res"+e.getMessage());
+		}
+		FrontdeskGrid FDG = PageFactory.initElements(GMethods.driver, FrontdeskGrid.class);
+		return FDG;	
 	}
 
 }

@@ -1,24 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="2" passed="2">
+<testng-results skipped="0" failed="0" total="3" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="ChannelManagerTest" duration-ms="93988" started-at="2017-09-12T09:58:44Z" finished-at="2017-09-12T10:00:18Z">
+  <suite name="ChannelManagerTest" duration-ms="127626" started-at="2017-09-14T13:05:33Z" finished-at="2017-09-14T13:07:41Z">
     <groups>
       <group name="testDebug">
         <method signature="ChannelFunctionalTestCases.AdminLogin_TC_1()[pri:1, instance:ChannelAutomation.Admin.Test.ChannelFunctionalTestCases@685cb137]" name="AdminLogin_TC_1" class="ChannelAutomation.Admin.Test.ChannelFunctionalTestCases"/>
+        <method signature="ChannelFunctionalTestCases.CancelResAndCheckAllotment()[pri:3, instance:ChannelAutomation.Admin.Test.ChannelFunctionalTestCases@685cb137]" name="CancelResAndCheckAllotment" class="ChannelAutomation.Admin.Test.ChannelFunctionalTestCases"/>
         <method signature="ChannelFunctionalTestCases.checkAllotmentUpdateForSingleReservation()[pri:2, instance:ChannelAutomation.Admin.Test.ChannelFunctionalTestCases@685cb137]" name="checkAllotmentUpdateForSingleReservation" class="ChannelAutomation.Admin.Test.ChannelFunctionalTestCases"/>
       </group> <!-- testDebug -->
     </groups>
-    <test name="ChannelManagerTest" duration-ms="93988" started-at="2017-09-12T09:58:44Z" finished-at="2017-09-12T10:00:18Z">
+    <test name="ChannelManagerTest" duration-ms="127626" started-at="2017-09-14T13:05:33Z" finished-at="2017-09-14T13:07:41Z">
       <class name="ChannelAutomation.Admin.Test.ChannelFunctionalTestCases">
-        <test-method status="PASS" signature="AdminLogin_TC_1()[pri:1, instance:ChannelAutomation.Admin.Test.ChannelFunctionalTestCases@685cb137]" name="AdminLogin_TC_1" duration-ms="25614" started-at="2017-09-12T15:28:44Z" finished-at="2017-09-12T15:29:10Z">
+        <test-method status="PASS" signature="AdminLogin_TC_1()[pri:1, instance:ChannelAutomation.Admin.Test.ChannelFunctionalTestCases@685cb137]" name="AdminLogin_TC_1" duration-ms="42491" started-at="2017-09-14T18:35:33Z" finished-at="2017-09-14T18:36:15Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- AdminLogin_TC_1 -->
-        <test-method status="PASS" signature="checkAllotmentUpdateForSingleReservation()[pri:2, instance:ChannelAutomation.Admin.Test.ChannelFunctionalTestCases@685cb137]" name="checkAllotmentUpdateForSingleReservation" duration-ms="68366" started-at="2017-09-12T15:29:10Z" finished-at="2017-09-12T15:30:18Z">
+        <test-method status="PASS" signature="checkAllotmentUpdateForSingleReservation()[pri:2, instance:ChannelAutomation.Admin.Test.ChannelFunctionalTestCases@685cb137]" name="checkAllotmentUpdateForSingleReservation" duration-ms="69125" started-at="2017-09-14T18:36:15Z" finished-at="2017-09-14T18:37:25Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkAllotmentUpdateForSingleReservation -->
+        <test-method status="PASS" signature="CancelResAndCheckAllotment()[pri:3, instance:ChannelAutomation.Admin.Test.ChannelFunctionalTestCases@685cb137]" name="CancelResAndCheckAllotment" duration-ms="15968" started-at="2017-09-14T18:37:25Z" finished-at="2017-09-14T18:37:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CancelResAndCheckAllotment -->
       </class> <!-- ChannelAutomation.Admin.Test.ChannelFunctionalTestCases -->
     </test> <!-- ChannelManagerTest -->
   </suite> <!-- ChannelManagerTest -->

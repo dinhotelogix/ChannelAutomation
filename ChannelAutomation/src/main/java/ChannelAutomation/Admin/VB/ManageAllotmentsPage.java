@@ -417,7 +417,7 @@ public class ManageAllotmentsPage
 		}
 	}
 	
-	//Verify Allotment Update
+	//Verify Allotment Update after Creating Reservation
 	public void verifyAllotmentUpdate()
 	{
 		try {
@@ -431,6 +431,34 @@ public class ManageAllotmentsPage
 			int expAllotment = Integer.parseInt(OldAllotmentValue);
 			
 			if(expAllotment==actAllotment-1)
+			{
+				Assert.assertTrue(true);
+			}else
+			{
+				System.out.println("Old Allotment:"+expAllotment+", and Current Allotment:"+actAllotment);
+				Assert.assertTrue(false);
+			}
+						
+		} catch (Exception e) {
+			System.out.println("Issue in Verify Allotmnt "+e.getMessage());
+			Assert.assertTrue(false);
+		}
+	}
+	
+	//Verify Allotment after cancel reservation
+	public void verifyAllotmentUpdateAfterCancel()
+	{
+		try {
+			int actAllotment = Integer.parseInt(OldAllotmentValue);
+			//int expAllotment = Integer.parseInt(oldAllotment);
+			
+			refreshAllotment.click();
+			Thread.sleep(5500);
+			getAllotmentForADay();
+			
+			int expAllotment = Integer.parseInt(OldAllotmentValue);
+			
+			if(expAllotment==actAllotment+1)
 			{
 				Assert.assertTrue(true);
 			}else

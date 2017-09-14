@@ -12,20 +12,27 @@ import Configurations.GMethods;
 public class FrontdeskHomePage 
 {
 	@FindBy(xpath="//input[@value='Cancel']")
-	public static WebElement cancel;
+	public WebElement cancel;
 	
 	@FindBy(id="txtResFrndLookup")
-	public static WebElement txtbxSearch;
+	public WebElement txtbxSearch;
 	
 	@FindBy(id="txtResFrndLookupAllChk")
-	public static WebElement chkbxSearchAll;
+	public WebElement chkbxSearchAll;
 
 	@FindBy(id="txtResFrndLookupAllBtn-button")
-	public static WebElement btnSearchAll;
+	public WebElement btnSearchAll;
 	
 	@FindBy(xpath="//a[text()='Logout ']")
-	public static WebElement frontdeskLogout;
+	public WebElement frontdeskLogout;
 		
+	@FindBy(id="chk_room_2109_25207")
+	public WebElement chkBx_Room_DNR;
+	
+	@FindBy(xpath="//div[@id='rhead25207']")
+	public WebElement Room_DNR;
+	
+	
 	//Click Cancel On Perform Night Audit window
 	public FrontdeskGrid clickCancel()
 	{
@@ -45,7 +52,7 @@ public class FrontdeskHomePage
 		
 	}
 	
-	//Search Reservation On Frontdesk
+	//Search Reservation On Frontdesk..Usingin Smoke to search res created from API
 	public ReservationSearchResultPage searchResOnFrontdesk()
 	{
 		//Get Channel Res ID and Put into seach text box 
@@ -67,6 +74,19 @@ public class FrontdeskHomePage
 		return RSRP;
 	}
 	
+	//Search a res to cancel and check allotment update
+	public ReservationSearchResultPage searchResOnFrontdeskToCancel() throws InterruptedException
+	{
+		String resID = PaymentPage.reservationID;
+		txtbxSearch.sendKeys(resID);
+		
+		chkbxSearchAll.click();
+		Thread.sleep(500);
+		btnSearchAll.click();
+		
+		ReservationSearchResultPage RSRP = PageFactory.initElements(GMethods.driver, ReservationSearchResultPage.class);
+		return RSRP;
+	}
 	//Logout Frontdesk
 	public FrontdeskLoginPage LogoutFrontdesk()
 	{
@@ -81,8 +101,13 @@ public class FrontdeskHomePage
 		return FLP;
 	}
 	
-	public void selectCurrentDateInFrontdeskCanender()
+	public void createDNR()
 	{
+		try {
+			
+		} catch (Exception e) {
+			
+		}
 		
 	}
 	
